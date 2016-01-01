@@ -1,0 +1,17 @@
+D:\Title in progress\Game\Game\bin\Release\Game.exe.config
+D:\Title in progress\Game\Game\bin\Release\Game.exe
+D:\Title in progress\Game\Game\bin\Release\Game.pdb
+D:\Title in progress\Game\Game\obj\Release\Game.Form1.resources
+D:\Title in progress\Game\Game\obj\Release\Game.Properties.Resources.resources
+D:\Title in progress\Game\Game\obj\Release\Game.csproj.GenerateResource.Cache
+D:\Title in progress\Game\Game\obj\Release\Game.exe
+D:\Title in progress\Game\Game\obj\Release\Game.pdb
+D:\Color band\Game\Game\bin\Release\Game.exe.config
+D:\Color band\Game\Game\obj\Release\Game.exe
+D:\Color band\Game\Game\obj\Release\Game.pdb
+D:\Color band\Game\Game\bin\Release\Game.exe
+D:\Color band\Game\Game\bin\Release\Game.pdb
+D:\Color band\Game\Game\obj\Release\Game.csprojResolveAssemblyReference.cache
+D:\Color band\Game\Game\obj\Release\Game.Form1.resources
+D:\Color band\Game\Game\obj\Release\Game.Properties.Resources.resources
+D:\Color band\Game\Game\obj\Release\Game.csproj.GenerateResource.Cache
