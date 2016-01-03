@@ -3,80 +3,6 @@
   <project key="754738054">
     <configuration>DEBUG;TRACE</configuration>
   </project>
-  <sourcecode name="Entity.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2016/01/01 18:01:59.813</styleCop>
-      <settingsFile>2016/01/01 18:01:59.793</settingsFile>
-      <sourceFile>2016/01/01 18:03:10.877</sourceFile>
-      <parser>2016/01/01 18:01:59.813</parser>
-      <StyleCop.CSharp.DocumentationRules>2016/01/01 18:01:59.813</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>233586281</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2016/01/01 18:01:59.813</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2016/01/01 18:01:59.813</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2016/01/01 18:01:59.813</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2016/01/01 18:01:59.813</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2016/01/01 18:01:59.813</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2016/01/01 18:01:59.813</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations>
-      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
-        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
-        <line>1</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
-        <context>All using directives must be placed inside of the namespace.</context>
-        <line>1</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
-        <context>All using directives must be placed inside of the namespace.</context>
-        <line>2</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
-        <context>All using directives must be placed inside of the namespace.</context>
-        <line>3</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
-        <context>All using directives must be placed inside of the namespace.</context>
-        <line>4</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
-        <context>All using directives must be placed inside of the namespace.</context>
-        <line>5</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
-        <context>The class must have a documentation header.</context>
-        <line>9</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.LayoutRules" rule="OpeningCurlyBracketsMustNotBeFollowedByBlankLine" ruleCheckId="SA1505">
-        <context>An opening curly bracket must not be followed by a blank line.</context>
-        <line>10</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
-        <context>A closing curly bracket must not be preceded by a blank line.</context>
-        <line>12</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
-        <context>The class must have an access modifier.</context>
-        <line>9</line>
-        <warning>False</warning>
-      </violation>
-    </violations>
-  </sourcecode>
   <sourcecode name="Player.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016/01/01 18:01:59.813</styleCop>
@@ -355,7 +281,7 @@
     <timestamps>
       <styleCop>2016/01/01 18:01:59.813</styleCop>
       <settingsFile>2016/01/01 18:01:59.793</settingsFile>
-      <sourceFile>2015/12/31 18:16:49.695</sourceFile>
+      <sourceFile>2016/01/01 20:50:35.928</sourceFile>
       <parser>2016/01/01 18:01:59.813</parser>
       <StyleCop.CSharp.DocumentationRules>2016/01/01 18:01:59.813</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>233586281</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -430,32 +356,32 @@
       </violation>
       <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
         <context>The code must not contain multiple blank lines in a row.</context>
+        <line>41</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
         <line>42</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
         <context>The code must not contain multiple blank lines in a row.</context>
-        <line>43</line>
+        <line>106</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
         <context>The code must not contain multiple blank lines in a row.</context>
-        <line>107</line>
+        <line>132</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
         <context>The code must not contain multiple blank lines in a row.</context>
-        <line>133</line>
+        <line>150</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
         <context>The code must not contain multiple blank lines in a row.</context>
         <line>151</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
-        <context>The code must not contain multiple blank lines in a row.</context>
-        <line>152</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
@@ -554,7 +480,7 @@
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustBeginWithLowerCaseLetter" ruleCheckId="SA1306">
-        <context>Variable names and private field names must start with a lower-case letter: Top.</context>
+        <context>Variable names and private field names must start with a lower-case letter: Topp.</context>
         <line>22</line>
         <warning>False</warning>
       </violation>
@@ -669,45 +595,40 @@
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
-        <context>The field must have a documentation header.</context>
-        <line>34</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
-        <context>The spacing around the symbol '=' is invalid.</context>
-        <line>34</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The constructor must have a documentation header.</context>
-        <line>36</line>
+        <line>35</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to InitializeComponent must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>38</line>
-        <index>992</index>
-        <endIndex>1010</endIndex>
-        <startLine>38</startLine>
+        <line>37</line>
+        <index>959</index>
+        <endIndex>977</endIndex>
+        <startLine>37</startLine>
         <startColumn>13</startColumn>
-        <endLine>38</endLine>
+        <endLine>37</endLine>
         <endColumn>31</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to BuildWorld must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>39</line>
-        <index>1028</index>
-        <endIndex>1037</endIndex>
-        <startLine>39</startLine>
+        <line>38</line>
+        <index>995</index>
+        <endIndex>1004</endIndex>
+        <startLine>38</startLine>
         <startColumn>13</startColumn>
-        <endLine>39</endLine>
+        <endLine>38</endLine>
         <endColumn>22</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The method must have a documentation header.</context>
-        <line>44</line>
+        <line>43</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="ArithmeticExpressionsMustDeclarePrecedence" ruleCheckId="SA1407">
+        <context>Insert parenthesis within the arithmetic expression to declare the operator precedence.</context>
+        <line>53</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="ArithmeticExpressionsMustDeclarePrecedence" ruleCheckId="SA1407">
@@ -720,600 +641,606 @@
         <line>55</line>
         <warning>False</warning>
       </violation>
-      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="ArithmeticExpressionsMustDeclarePrecedence" ruleCheckId="SA1407">
-        <context>Insert parenthesis within the arithmetic expression to declare the operator precedence.</context>
-        <line>56</line>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustBeOrderedByAccess" ruleCheckId="SA1202">
+        <context>All private methods must be placed after all public methods.</context>
+        <line>83</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustBeOrderedByAccess" ruleCheckId="SA1202">
         <context>All private methods must be placed after all public methods.</context>
-        <line>84</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustBeOrderedByAccess" ruleCheckId="SA1202">
-        <context>All private methods must be placed after all public methods.</context>
-        <line>108</line>
+        <line>107</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="ParametersMustBeOnSameLineOrSeparateLines" ruleCheckId="SA1117">
         <context>All method parameters must be placed on the same line, or each parameter must be placed on a separate line.</context>
-        <line>58</line>
+        <line>57</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="SplitParametersMustStartOnLineAfterDeclaration" ruleCheckId="SA1116">
         <context>If the method parameters are on separate lines, the first parameter must begin on the line beneath the name of the method.</context>
-        <line>58</line>
+        <line>57</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="ParameterMustFollowComma" ruleCheckId="SA1115">
         <context>The parameter must begin on the line after the previous parameter.</context>
-        <line>59</line>
+        <line>58</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to screen must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>46</line>
-        <index>1135</index>
-        <endIndex>1140</endIndex>
-        <startLine>46</startLine>
+        <line>45</line>
+        <index>1102</index>
+        <endIndex>1107</endIndex>
+        <startLine>45</startLine>
         <startColumn>26</startColumn>
-        <endLine>46</endLine>
+        <endLine>45</endLine>
         <endColumn>31</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to TopSkyColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>48</line>
-        <index>1206</index>
-        <endIndex>1216</endIndex>
-        <startLine>48</startLine>
+        <line>47</line>
+        <index>1173</index>
+        <endIndex>1183</endIndex>
+        <startLine>47</startLine>
         <startColumn>44</startColumn>
-        <endLine>48</endLine>
+        <endLine>47</endLine>
         <endColumn>54</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Top must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>48</line>
-        <index>1220</index>
-        <endIndex>1222</endIndex>
-        <startLine>48</startLine>
+        <context>The call to Topp must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>47</line>
+        <index>1187</index>
+        <endIndex>1190</endIndex>
+        <startLine>47</startLine>
         <startColumn>58</startColumn>
-        <endLine>48</endLine>
-        <endColumn>60</endColumn>
+        <endLine>47</endLine>
+        <endColumn>61</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to MidSkyColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>49</line>
-        <index>1270</index>
-        <endIndex>1280</endIndex>
-        <startLine>49</startLine>
+        <line>48</line>
+        <index>1238</index>
+        <endIndex>1248</endIndex>
+        <startLine>48</startLine>
         <startColumn>44</startColumn>
-        <endLine>49</endLine>
+        <endLine>48</endLine>
         <endColumn>54</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to Mid must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>49</line>
-        <index>1284</index>
-        <endIndex>1286</endIndex>
-        <startLine>49</startLine>
+        <line>48</line>
+        <index>1252</index>
+        <endIndex>1254</endIndex>
+        <startLine>48</startLine>
         <startColumn>58</startColumn>
-        <endLine>49</endLine>
+        <endLine>48</endLine>
         <endColumn>60</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to Base1SkyColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>50</line>
-        <index>1334</index>
-        <endIndex>1346</endIndex>
-        <startLine>50</startLine>
+        <line>49</line>
+        <index>1302</index>
+        <endIndex>1314</endIndex>
+        <startLine>49</startLine>
         <startColumn>44</startColumn>
-        <endLine>50</endLine>
+        <endLine>49</endLine>
         <endColumn>56</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to Base1 must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>50</line>
-        <index>1350</index>
-        <endIndex>1354</endIndex>
-        <startLine>50</startLine>
+        <line>49</line>
+        <index>1318</index>
+        <endIndex>1322</endIndex>
+        <startLine>49</startLine>
         <startColumn>60</startColumn>
-        <endLine>50</endLine>
+        <endLine>49</endLine>
         <endColumn>64</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to Base2SkyColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>51</line>
-        <index>1402</index>
-        <endIndex>1414</endIndex>
-        <startLine>51</startLine>
+        <line>50</line>
+        <index>1370</index>
+        <endIndex>1382</endIndex>
+        <startLine>50</startLine>
         <startColumn>44</startColumn>
-        <endLine>51</endLine>
+        <endLine>50</endLine>
         <endColumn>56</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to Base2 must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>51</line>
-        <index>1418</index>
-        <endIndex>1422</endIndex>
-        <startLine>51</startLine>
+        <line>50</line>
+        <index>1386</index>
+        <endIndex>1390</endIndex>
+        <startLine>50</startLine>
         <startColumn>60</startColumn>
-        <endLine>51</endLine>
+        <endLine>50</endLine>
         <endColumn>64</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to TopGroundColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>53</line>
-        <index>1472</index>
-        <endIndex>1485</endIndex>
-        <startLine>53</startLine>
+        <line>52</line>
+        <index>1440</index>
+        <endIndex>1453</endIndex>
+        <startLine>52</startLine>
         <startColumn>44</startColumn>
-        <endLine>53</endLine>
+        <endLine>52</endLine>
         <endColumn>57</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to screen must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>53</line>
-        <index>1506</index>
-        <endIndex>1511</endIndex>
-        <startLine>53</startLine>
+        <line>52</line>
+        <index>1474</index>
+        <endIndex>1479</endIndex>
+        <startLine>52</startLine>
         <startColumn>78</startColumn>
-        <endLine>53</endLine>
+        <endLine>52</endLine>
         <endColumn>83</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Top must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>53</line>
-        <index>1525</index>
-        <endIndex>1527</endIndex>
-        <startLine>53</startLine>
+        <context>The call to Topp must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>52</line>
+        <index>1493</index>
+        <endIndex>1496</endIndex>
+        <startLine>52</startLine>
         <startColumn>97</startColumn>
-        <endLine>53</endLine>
-        <endColumn>99</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Top must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>53</line>
-        <index>1536</index>
-        <endIndex>1538</endIndex>
-        <startLine>53</startLine>
-        <startColumn>108</startColumn>
-        <endLine>53</endLine>
-        <endColumn>110</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to MidGroundColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>54</line>
-        <index>1594</index>
-        <endIndex>1607</endIndex>
-        <startLine>54</startLine>
-        <startColumn>44</startColumn>
-        <endLine>54</endLine>
-        <endColumn>57</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to screen must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>54</line>
-        <index>1628</index>
-        <endIndex>1633</endIndex>
-        <startLine>54</startLine>
-        <startColumn>78</startColumn>
-        <endLine>54</endLine>
-        <endColumn>83</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Top must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>54</line>
-        <index>1648</index>
-        <endIndex>1650</endIndex>
-        <startLine>54</startLine>
-        <startColumn>98</startColumn>
-        <endLine>54</endLine>
+        <endLine>52</endLine>
         <endColumn>100</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Mid must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>54</line>
-        <index>1660</index>
-        <endIndex>1662</endIndex>
-        <startLine>54</startLine>
-        <startColumn>110</startColumn>
-        <endLine>54</endLine>
+        <context>The call to Topp must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>52</line>
+        <index>1505</index>
+        <endIndex>1508</endIndex>
+        <startLine>52</startLine>
+        <startColumn>109</startColumn>
+        <endLine>52</endLine>
         <endColumn>112</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to MidGroundColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>53</line>
+        <index>1564</index>
+        <endIndex>1577</endIndex>
+        <startLine>53</startLine>
+        <startColumn>44</startColumn>
+        <endLine>53</endLine>
+        <endColumn>57</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to screen must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>53</line>
+        <index>1598</index>
+        <endIndex>1603</endIndex>
+        <startLine>53</startLine>
+        <startColumn>78</startColumn>
+        <endLine>53</endLine>
+        <endColumn>83</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Topp must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>53</line>
+        <index>1618</index>
+        <endIndex>1621</endIndex>
+        <startLine>53</startLine>
+        <startColumn>98</startColumn>
+        <endLine>53</endLine>
+        <endColumn>101</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to Mid must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>54</line>
-        <index>1671</index>
-        <endIndex>1673</endIndex>
-        <startLine>54</startLine>
-        <startColumn>121</startColumn>
-        <endLine>54</endLine>
-        <endColumn>123</endColumn>
+        <line>53</line>
+        <index>1631</index>
+        <endIndex>1633</endIndex>
+        <startLine>53</startLine>
+        <startColumn>111</startColumn>
+        <endLine>53</endLine>
+        <endColumn>113</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Mid must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>53</line>
+        <index>1642</index>
+        <endIndex>1644</endIndex>
+        <startLine>53</startLine>
+        <startColumn>122</startColumn>
+        <endLine>53</endLine>
+        <endColumn>124</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to Base1GroundColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>55</line>
-        <index>1729</index>
-        <endIndex>1744</endIndex>
-        <startLine>55</startLine>
+        <line>54</line>
+        <index>1700</index>
+        <endIndex>1715</endIndex>
+        <startLine>54</startLine>
         <startColumn>44</startColumn>
-        <endLine>55</endLine>
+        <endLine>54</endLine>
         <endColumn>59</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to screen must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>55</line>
-        <index>1765</index>
-        <endIndex>1770</endIndex>
-        <startLine>55</startLine>
+        <line>54</line>
+        <index>1736</index>
+        <endIndex>1741</endIndex>
+        <startLine>54</startLine>
         <startColumn>80</startColumn>
-        <endLine>55</endLine>
+        <endLine>54</endLine>
         <endColumn>85</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Top must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>55</line>
-        <index>1785</index>
-        <endIndex>1787</endIndex>
-        <startLine>55</startLine>
+        <context>The call to Topp must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>54</line>
+        <index>1756</index>
+        <endIndex>1759</endIndex>
+        <startLine>54</startLine>
         <startColumn>100</startColumn>
-        <endLine>55</endLine>
-        <endColumn>102</endColumn>
+        <endLine>54</endLine>
+        <endColumn>103</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to Mid must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>55</line>
-        <index>1798</index>
-        <endIndex>1800</endIndex>
-        <startLine>55</startLine>
-        <startColumn>113</startColumn>
-        <endLine>55</endLine>
-        <endColumn>115</endColumn>
+        <line>54</line>
+        <index>1770</index>
+        <endIndex>1772</endIndex>
+        <startLine>54</startLine>
+        <startColumn>114</startColumn>
+        <endLine>54</endLine>
+        <endColumn>116</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to Base1 must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>55</line>
-        <index>1810</index>
-        <endIndex>1814</endIndex>
-        <startLine>55</startLine>
-        <startColumn>125</startColumn>
-        <endLine>55</endLine>
-        <endColumn>129</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Base1 must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>55</line>
-        <index>1823</index>
-        <endIndex>1827</endIndex>
-        <startLine>55</startLine>
-        <startColumn>138</startColumn>
-        <endLine>55</endLine>
-        <endColumn>142</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Base2GroundColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>56</line>
-        <index>1883</index>
-        <endIndex>1898</endIndex>
-        <startLine>56</startLine>
-        <startColumn>44</startColumn>
-        <endLine>56</endLine>
-        <endColumn>59</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to screen must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>56</line>
-        <index>1919</index>
-        <endIndex>1924</endIndex>
-        <startLine>56</startLine>
-        <startColumn>80</startColumn>
-        <endLine>56</endLine>
-        <endColumn>85</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Top must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>56</line>
-        <index>1939</index>
-        <endIndex>1941</endIndex>
-        <startLine>56</startLine>
-        <startColumn>100</startColumn>
-        <endLine>56</endLine>
-        <endColumn>102</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Mid must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>56</line>
-        <index>1952</index>
-        <endIndex>1954</endIndex>
-        <startLine>56</startLine>
-        <startColumn>113</startColumn>
-        <endLine>56</endLine>
-        <endColumn>115</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Base1 must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>56</line>
-        <index>1965</index>
-        <endIndex>1969</endIndex>
-        <startLine>56</startLine>
+        <line>54</line>
+        <index>1782</index>
+        <endIndex>1786</endIndex>
+        <startLine>54</startLine>
         <startColumn>126</startColumn>
-        <endLine>56</endLine>
+        <endLine>54</endLine>
         <endColumn>130</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Base2 must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>56</line>
-        <index>1979</index>
-        <endIndex>1983</endIndex>
-        <startLine>56</startLine>
-        <startColumn>140</startColumn>
-        <endLine>56</endLine>
-        <endColumn>144</endColumn>
+        <context>The call to Base1 must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>54</line>
+        <index>1795</index>
+        <endIndex>1799</endIndex>
+        <startLine>54</startLine>
+        <startColumn>139</startColumn>
+        <endLine>54</endLine>
+        <endColumn>143</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Base2GroundColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>55</line>
+        <index>1855</index>
+        <endIndex>1870</endIndex>
+        <startLine>55</startLine>
+        <startColumn>44</startColumn>
+        <endLine>55</endLine>
+        <endColumn>59</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to screen must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>55</line>
+        <index>1891</index>
+        <endIndex>1896</endIndex>
+        <startLine>55</startLine>
+        <startColumn>80</startColumn>
+        <endLine>55</endLine>
+        <endColumn>85</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Topp must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>55</line>
+        <index>1911</index>
+        <endIndex>1914</endIndex>
+        <startLine>55</startLine>
+        <startColumn>100</startColumn>
+        <endLine>55</endLine>
+        <endColumn>103</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Mid must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>55</line>
+        <index>1925</index>
+        <endIndex>1927</endIndex>
+        <startLine>55</startLine>
+        <startColumn>114</startColumn>
+        <endLine>55</endLine>
+        <endColumn>116</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Base1 must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>55</line>
+        <index>1938</index>
+        <endIndex>1942</endIndex>
+        <startLine>55</startLine>
+        <startColumn>127</startColumn>
+        <endLine>55</endLine>
+        <endColumn>131</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to Base2 must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>56</line>
-        <index>1992</index>
-        <endIndex>1996</endIndex>
-        <startLine>56</startLine>
-        <startColumn>153</startColumn>
-        <endLine>56</endLine>
-        <endColumn>157</endColumn>
+        <line>55</line>
+        <index>1952</index>
+        <endIndex>1956</endIndex>
+        <startLine>55</startLine>
+        <startColumn>141</startColumn>
+        <endLine>55</endLine>
+        <endColumn>145</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Base2 must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>55</line>
+        <index>1965</index>
+        <endIndex>1969</endIndex>
+        <startLine>55</startLine>
+        <startColumn>154</startColumn>
+        <endLine>55</endLine>
+        <endColumn>158</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseStringEmptyForEmptyStrings" ruleCheckId="SA1122">
         <context>Use string.Empty rather than "".</context>
-        <line>58</line>
+        <line>57</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The method must have a documentation header.</context>
-        <line>62</line>
+        <line>61</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Top must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>64</line>
+        <context>The call to Topp must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>63</line>
+        <index>2244</index>
+        <endIndex>2247</endIndex>
+        <startLine>63</startLine>
+        <startColumn>13</startColumn>
+        <endLine>63</endLine>
+        <endColumn>16</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to screen must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>63</line>
         <index>2271</index>
-        <endIndex>2273</endIndex>
-        <startLine>64</startLine>
-        <startColumn>13</startColumn>
-        <endLine>64</endLine>
-        <endColumn>15</endColumn>
+        <endIndex>2276</endIndex>
+        <startLine>63</startLine>
+        <startColumn>40</startColumn>
+        <endLine>63</endLine>
+        <endColumn>45</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to screen must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>64</line>
-        <index>2297</index>
-        <endIndex>2302</endIndex>
-        <startLine>64</startLine>
-        <startColumn>39</startColumn>
-        <endLine>64</endLine>
-        <endColumn>44</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to screen must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>64</line>
-        <index>2311</index>
-        <endIndex>2316</endIndex>
-        <startLine>64</startLine>
-        <startColumn>53</startColumn>
-        <endLine>64</endLine>
-        <endColumn>58</endColumn>
+        <line>63</line>
+        <index>2285</index>
+        <endIndex>2290</endIndex>
+        <startLine>63</startLine>
+        <startColumn>54</startColumn>
+        <endLine>63</endLine>
+        <endColumn>59</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to Mid must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>65</line>
-        <index>2344</index>
-        <endIndex>2346</endIndex>
-        <startLine>65</startLine>
+        <line>64</line>
+        <index>2318</index>
+        <endIndex>2320</endIndex>
+        <startLine>64</startLine>
         <startColumn>13</startColumn>
-        <endLine>65</endLine>
+        <endLine>64</endLine>
         <endColumn>15</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Top must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>65</line>
-        <index>2367</index>
-        <endIndex>2369</endIndex>
-        <startLine>65</startLine>
+        <context>The call to Topp must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>64</line>
+        <index>2341</index>
+        <endIndex>2344</endIndex>
+        <startLine>64</startLine>
         <startColumn>36</startColumn>
-        <endLine>65</endLine>
-        <endColumn>38</endColumn>
+        <endLine>64</endLine>
+        <endColumn>39</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to screen must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>65</line>
-        <index>2379</index>
-        <endIndex>2384</endIndex>
-        <startLine>65</startLine>
-        <startColumn>48</startColumn>
-        <endLine>65</endLine>
-        <endColumn>53</endColumn>
+        <line>64</line>
+        <index>2354</index>
+        <endIndex>2359</endIndex>
+        <startLine>64</startLine>
+        <startColumn>49</startColumn>
+        <endLine>64</endLine>
+        <endColumn>54</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to screen must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>65</line>
-        <index>2393</index>
-        <endIndex>2398</endIndex>
-        <startLine>65</startLine>
-        <startColumn>62</startColumn>
-        <endLine>65</endLine>
-        <endColumn>67</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Base1 must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>66</line>
-        <index>2426</index>
-        <endIndex>2430</endIndex>
-        <startLine>66</startLine>
-        <startColumn>13</startColumn>
-        <endLine>66</endLine>
-        <endColumn>17</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Mid must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>66</line>
-        <index>2451</index>
-        <endIndex>2453</endIndex>
-        <startLine>66</startLine>
-        <startColumn>38</startColumn>
-        <endLine>66</endLine>
-        <endColumn>40</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Top must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>66</line>
-        <index>2464</index>
-        <endIndex>2466</endIndex>
-        <startLine>66</startLine>
-        <startColumn>51</startColumn>
-        <endLine>66</endLine>
-        <endColumn>53</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to screen must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>66</line>
-        <index>2476</index>
-        <endIndex>2481</endIndex>
-        <startLine>66</startLine>
+        <line>64</line>
+        <index>2368</index>
+        <endIndex>2373</endIndex>
+        <startLine>64</startLine>
         <startColumn>63</startColumn>
-        <endLine>66</endLine>
+        <endLine>64</endLine>
         <endColumn>68</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Base1 must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>65</line>
+        <index>2401</index>
+        <endIndex>2405</endIndex>
+        <startLine>65</startLine>
+        <startColumn>13</startColumn>
+        <endLine>65</endLine>
+        <endColumn>17</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Mid must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>65</line>
+        <index>2426</index>
+        <endIndex>2428</endIndex>
+        <startLine>65</startLine>
+        <startColumn>38</startColumn>
+        <endLine>65</endLine>
+        <endColumn>40</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Topp must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>65</line>
+        <index>2439</index>
+        <endIndex>2442</endIndex>
+        <startLine>65</startLine>
+        <startColumn>51</startColumn>
+        <endLine>65</endLine>
+        <endColumn>54</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to screen must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>66</line>
-        <index>2490</index>
-        <endIndex>2495</endIndex>
-        <startLine>66</startLine>
-        <startColumn>77</startColumn>
-        <endLine>66</endLine>
-        <endColumn>82</endColumn>
+        <line>65</line>
+        <index>2452</index>
+        <endIndex>2457</endIndex>
+        <startLine>65</startLine>
+        <startColumn>64</startColumn>
+        <endLine>65</endLine>
+        <endColumn>69</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to screen must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>65</line>
+        <index>2466</index>
+        <endIndex>2471</endIndex>
+        <startLine>65</startLine>
+        <startColumn>78</startColumn>
+        <endLine>65</endLine>
+        <endColumn>83</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to Base2 must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>67</line>
-        <index>2524</index>
-        <endIndex>2528</endIndex>
-        <startLine>67</startLine>
+        <line>66</line>
+        <index>2500</index>
+        <endIndex>2504</endIndex>
+        <startLine>66</startLine>
         <startColumn>13</startColumn>
-        <endLine>67</endLine>
+        <endLine>66</endLine>
         <endColumn>17</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to Base1 must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>67</line>
-        <index>2549</index>
-        <endIndex>2553</endIndex>
-        <startLine>67</startLine>
+        <line>66</line>
+        <index>2525</index>
+        <endIndex>2529</endIndex>
+        <startLine>66</startLine>
         <startColumn>38</startColumn>
-        <endLine>67</endLine>
+        <endLine>66</endLine>
         <endColumn>42</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to Mid must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>67</line>
-        <index>2564</index>
-        <endIndex>2566</endIndex>
-        <startLine>67</startLine>
+        <line>66</line>
+        <index>2540</index>
+        <endIndex>2542</endIndex>
+        <startLine>66</startLine>
         <startColumn>53</startColumn>
-        <endLine>67</endLine>
+        <endLine>66</endLine>
         <endColumn>55</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Top must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>67</line>
-        <index>2577</index>
-        <endIndex>2579</endIndex>
-        <startLine>67</startLine>
+        <context>The call to Topp must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>66</line>
+        <index>2553</index>
+        <endIndex>2556</endIndex>
+        <startLine>66</startLine>
         <startColumn>66</startColumn>
-        <endLine>67</endLine>
-        <endColumn>68</endColumn>
+        <endLine>66</endLine>
+        <endColumn>69</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to screen must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>67</line>
-        <index>2589</index>
-        <endIndex>2594</endIndex>
-        <startLine>67</startLine>
-        <startColumn>78</startColumn>
-        <endLine>67</endLine>
-        <endColumn>83</endColumn>
+        <line>66</line>
+        <index>2566</index>
+        <endIndex>2571</endIndex>
+        <startLine>66</startLine>
+        <startColumn>79</startColumn>
+        <endLine>66</endLine>
+        <endColumn>84</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to screen must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>67</line>
-        <index>2603</index>
-        <endIndex>2608</endIndex>
-        <startLine>67</startLine>
-        <startColumn>92</startColumn>
-        <endLine>67</endLine>
-        <endColumn>97</endColumn>
+        <line>66</line>
+        <index>2580</index>
+        <endIndex>2585</endIndex>
+        <startLine>66</startLine>
+        <startColumn>93</startColumn>
+        <endLine>66</endLine>
+        <endColumn>98</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The method must have a documentation header.</context>
-        <line>70</line>
+        <line>69</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.LayoutRules" rule="OpeningCurlyBracketsMustNotBeFollowedByBlankLine" ruleCheckId="SA1505">
         <context>An opening curly bracket must not be followed by a blank line.</context>
-        <line>71</line>
+        <line>70</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to TopSkyColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>72</line>
+        <index>2675</index>
+        <endIndex>2685</endIndex>
+        <startLine>72</startLine>
+        <startColumn>13</startColumn>
+        <endLine>72</endLine>
+        <endColumn>23</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to MidSkyColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
         <line>73</line>
-        <index>2698</index>
-        <endIndex>2708</endIndex>
+        <index>2754</index>
+        <endIndex>2764</endIndex>
         <startLine>73</startLine>
         <startColumn>13</startColumn>
         <endLine>73</endLine>
@@ -1321,21 +1248,21 @@
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to MidSkyColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <context>The call to Base1SkyColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
         <line>74</line>
-        <index>2777</index>
-        <endIndex>2787</endIndex>
+        <index>2833</index>
+        <endIndex>2845</endIndex>
         <startLine>74</startLine>
         <startColumn>13</startColumn>
         <endLine>74</endLine>
-        <endColumn>23</endColumn>
+        <endColumn>25</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Base1SkyColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <context>The call to Base2SkyColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
         <line>75</line>
-        <index>2856</index>
-        <endIndex>2868</endIndex>
+        <index>2914</index>
+        <endIndex>2926</endIndex>
         <startLine>75</startLine>
         <startColumn>13</startColumn>
         <endLine>75</endLine>
@@ -1343,21 +1270,21 @@
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Base2SkyColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>76</line>
-        <index>2937</index>
-        <endIndex>2949</endIndex>
-        <startLine>76</startLine>
+        <context>The call to TopGroundColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>77</line>
+        <index>2997</index>
+        <endIndex>3010</endIndex>
+        <startLine>77</startLine>
         <startColumn>13</startColumn>
-        <endLine>76</endLine>
-        <endColumn>25</endColumn>
+        <endLine>77</endLine>
+        <endColumn>26</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to TopGroundColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <context>The call to MidGroundColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
         <line>78</line>
-        <index>3020</index>
-        <endIndex>3033</endIndex>
+        <index>3079</index>
+        <endIndex>3092</endIndex>
         <startLine>78</startLine>
         <startColumn>13</startColumn>
         <endLine>78</endLine>
@@ -1365,191 +1292,185 @@
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to MidGroundColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <context>The call to Base1GroundColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
         <line>79</line>
-        <index>3102</index>
-        <endIndex>3115</endIndex>
+        <index>3161</index>
+        <endIndex>3176</endIndex>
         <startLine>79</startLine>
         <startColumn>13</startColumn>
         <endLine>79</endLine>
-        <endColumn>26</endColumn>
+        <endColumn>28</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Base1GroundColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <context>The call to Base2GroundColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
         <line>80</line>
-        <index>3184</index>
-        <endIndex>3199</endIndex>
+        <index>3245</index>
+        <endIndex>3260</endIndex>
         <startLine>80</startLine>
         <startColumn>13</startColumn>
         <endLine>80</endLine>
         <endColumn>28</endColumn>
         <warning>False</warning>
       </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to Base2GroundColor must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>81</line>
-        <index>3268</index>
-        <endIndex>3283</endIndex>
-        <startLine>81</startLine>
-        <startColumn>13</startColumn>
-        <endLine>81</endLine>
-        <endColumn>28</endColumn>
-        <warning>False</warning>
-      </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The method must have a documentation header.</context>
-        <line>84</line>
+        <line>83</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.LayoutRules" rule="OpeningCurlyBracketsMustNotBeFollowedByBlankLine" ruleCheckId="SA1505">
         <context>An opening curly bracket must not be followed by a blank line.</context>
-        <line>85</line>
+        <line>84</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.NamingRules" rule="ElementMustBeginWithUpperCaseLetter" ruleCheckId="SA1300">
         <context>method names begin with an upper-case letter: character_KeyPushed.</context>
-        <line>84</line>
+        <line>83</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to right must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>90</line>
-        <index>3535</index>
-        <endIndex>3539</endIndex>
-        <startLine>90</startLine>
+        <line>89</line>
+        <index>3512</index>
+        <endIndex>3516</endIndex>
+        <startLine>89</startLine>
         <startColumn>21</startColumn>
-        <endLine>90</endLine>
+        <endLine>89</endLine>
         <endColumn>25</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to left must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>93</line>
-        <index>3628</index>
-        <endIndex>3631</endIndex>
-        <startLine>93</startLine>
+        <line>92</line>
+        <index>3605</index>
+        <endIndex>3608</endIndex>
+        <startLine>92</startLine>
         <startColumn>21</startColumn>
-        <endLine>93</endLine>
+        <endLine>92</endLine>
         <endColumn>24</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to up must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>96</line>
-        <index>3720</index>
-        <endIndex>3721</endIndex>
-        <startLine>96</startLine>
+        <line>95</line>
+        <index>3697</index>
+        <endIndex>3698</endIndex>
+        <startLine>95</startLine>
         <startColumn>21</startColumn>
-        <endLine>96</endLine>
+        <endLine>95</endLine>
         <endColumn>22</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to down must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>99</line>
-        <index>3810</index>
-        <endIndex>3813</endIndex>
-        <startLine>99</startLine>
+        <line>98</line>
+        <index>3787</index>
+        <endIndex>3790</endIndex>
+        <startLine>98</startLine>
         <startColumn>21</startColumn>
-        <endLine>99</endLine>
+        <endLine>98</endLine>
         <endColumn>24</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to run must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>102</line>
-        <index>3909</index>
-        <endIndex>3911</endIndex>
-        <startLine>102</startLine>
+        <line>101</line>
+        <index>3886</index>
+        <endIndex>3888</endIndex>
+        <startLine>101</startLine>
         <startColumn>21</startColumn>
-        <endLine>102</endLine>
+        <endLine>101</endLine>
         <endColumn>23</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The method must have a documentation header.</context>
-        <line>108</line>
+        <line>107</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.LayoutRules" rule="OpeningCurlyBracketsMustNotBeFollowedByBlankLine" ruleCheckId="SA1505">
         <context>An opening curly bracket must not be followed by a blank line.</context>
-        <line>109</line>
+        <line>108</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
         <context>The code must not contain multiple blank lines in a row.</context>
-        <line>130</line>
+        <line>129</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
         <context>A closing curly bracket must not be preceded by a blank line.</context>
-        <line>131</line>
+        <line>130</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.NamingRules" rule="ElementMustBeginWithUpperCaseLetter" ruleCheckId="SA1300">
         <context>method names begin with an upper-case letter: character_KeyReleased.</context>
-        <line>108</line>
+        <line>107</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to right must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>114</line>
-        <index>4164</index>
-        <endIndex>4168</endIndex>
-        <startLine>114</startLine>
+        <line>113</line>
+        <index>4141</index>
+        <endIndex>4145</endIndex>
+        <startLine>113</startLine>
         <startColumn>21</startColumn>
-        <endLine>114</endLine>
+        <endLine>113</endLine>
         <endColumn>25</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to left must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>117</line>
-        <index>4258</index>
-        <endIndex>4261</endIndex>
-        <startLine>117</startLine>
+        <line>116</line>
+        <index>4235</index>
+        <endIndex>4238</endIndex>
+        <startLine>116</startLine>
         <startColumn>21</startColumn>
-        <endLine>117</endLine>
+        <endLine>116</endLine>
         <endColumn>24</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to up must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>120</line>
-        <index>4351</index>
-        <endIndex>4352</endIndex>
-        <startLine>120</startLine>
+        <line>119</line>
+        <index>4328</index>
+        <endIndex>4329</endIndex>
+        <startLine>119</startLine>
         <startColumn>21</startColumn>
-        <endLine>120</endLine>
+        <endLine>119</endLine>
         <endColumn>22</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to down must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>123</line>
-        <index>4442</index>
-        <endIndex>4445</endIndex>
-        <startLine>123</startLine>
+        <line>122</line>
+        <index>4419</index>
+        <endIndex>4422</endIndex>
+        <startLine>122</startLine>
         <startColumn>21</startColumn>
-        <endLine>123</endLine>
+        <endLine>122</endLine>
         <endColumn>24</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to run must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>126</line>
-        <index>4542</index>
-        <endIndex>4544</endIndex>
-        <startLine>126</startLine>
+        <line>125</line>
+        <index>4519</index>
+        <endIndex>4521</endIndex>
+        <startLine>125</startLine>
         <startColumn>21</startColumn>
-        <endLine>126</endLine>
+        <endLine>125</endLine>
         <endColumn>23</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The method must have a documentation header.</context>
-        <line>134</line>
+        <line>133</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>146</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
@@ -1557,26 +1478,32 @@
         <line>147</line>
         <warning>False</warning>
       </violation>
-      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
-        <context>The code must not contain multiple blank lines in a row.</context>
-        <line>148</line>
-        <warning>False</warning>
-      </violation>
       <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
         <context>A closing curly bracket must not be preceded by a blank line.</context>
-        <line>149</line>
+        <line>148</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.NamingRules" rule="ElementMustBeginWithUpperCaseLetter" ruleCheckId="SA1300">
         <context>method names begin with an upper-case letter: timer1_Tick.</context>
-        <line>134</line>
+        <line>133</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to UpdateGame must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>135</line>
+        <index>4680</index>
+        <endIndex>4689</endIndex>
+        <startLine>135</startLine>
+        <startColumn>13</startColumn>
+        <endLine>135</endLine>
+        <endColumn>22</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to RenderGame must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
         <line>136</line>
-        <index>4703</index>
-        <endIndex>4712</endIndex>
+        <index>4707</index>
+        <endIndex>4716</endIndex>
         <startLine>136</startLine>
         <startColumn>13</startColumn>
         <endLine>136</endLine>
@@ -1584,249 +1511,238 @@
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
-        <context>The call to RenderGame must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>137</line>
-        <index>4730</index>
-        <endIndex>4739</endIndex>
-        <startLine>137</startLine>
-        <startColumn>13</startColumn>
-        <endLine>137</endLine>
-        <endColumn>22</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to Move must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>140</line>
-        <index>4798</index>
-        <endIndex>4801</endIndex>
-        <startLine>140</startLine>
+        <line>139</line>
+        <index>4775</index>
+        <endIndex>4778</endIndex>
+        <startLine>139</startLine>
         <startColumn>17</startColumn>
-        <endLine>140</endLine>
+        <endLine>139</endLine>
         <endColumn>20</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to RUN_SPEED must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>140</line>
-        <index>4803</index>
-        <endIndex>4811</endIndex>
-        <startLine>140</startLine>
+        <line>139</line>
+        <index>4780</index>
+        <endIndex>4788</endIndex>
+        <startLine>139</startLine>
         <startColumn>22</startColumn>
-        <endLine>140</endLine>
+        <endLine>139</endLine>
         <endColumn>30</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to run must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>138</line>
-        <index>4761</index>
-        <endIndex>4763</endIndex>
-        <startLine>138</startLine>
+        <line>137</line>
+        <index>4738</index>
+        <endIndex>4740</endIndex>
+        <startLine>137</startLine>
         <startColumn>17</startColumn>
-        <endLine>138</endLine>
+        <endLine>137</endLine>
         <endColumn>19</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to Move must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>144</line>
-        <index>4880</index>
-        <endIndex>4883</endIndex>
-        <startLine>144</startLine>
+        <line>143</line>
+        <index>4857</index>
+        <endIndex>4860</endIndex>
+        <startLine>143</startLine>
         <startColumn>17</startColumn>
-        <endLine>144</endLine>
+        <endLine>143</endLine>
         <endColumn>20</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to MOVEMENT_SPEED must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>144</line>
-        <index>4885</index>
-        <endIndex>4898</endIndex>
-        <startLine>144</startLine>
+        <line>143</line>
+        <index>4862</index>
+        <endIndex>4875</endIndex>
+        <startLine>143</startLine>
         <startColumn>22</startColumn>
-        <endLine>144</endLine>
+        <endLine>143</endLine>
         <endColumn>35</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The method must have a documentation header.</context>
-        <line>153</line>
+        <line>152</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to character must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>157</line>
-        <index>5126</index>
-        <endIndex>5134</endIndex>
-        <startLine>157</startLine>
+        <line>156</line>
+        <index>5103</index>
+        <endIndex>5111</endIndex>
+        <startLine>156</startLine>
         <startColumn>17</startColumn>
-        <endLine>157</endLine>
+        <endLine>156</endLine>
         <endColumn>25</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to right must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>155</line>
-        <index>5025</index>
-        <endIndex>5029</endIndex>
-        <startLine>155</startLine>
+        <line>154</line>
+        <index>5002</index>
+        <endIndex>5006</endIndex>
+        <startLine>154</startLine>
         <startColumn>17</startColumn>
-        <endLine>155</endLine>
+        <endLine>154</endLine>
         <endColumn>21</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to character must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>155</line>
-        <index>5036</index>
-        <endIndex>5044</endIndex>
-        <startLine>155</startLine>
+        <line>154</line>
+        <index>5013</index>
+        <endIndex>5021</endIndex>
+        <startLine>154</startLine>
         <startColumn>28</startColumn>
-        <endLine>155</endLine>
+        <endLine>154</endLine>
         <endColumn>36</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to screen must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>155</line>
-        <index>5055</index>
-        <endIndex>5060</endIndex>
-        <startLine>155</startLine>
+        <line>154</line>
+        <index>5032</index>
+        <endIndex>5037</endIndex>
+        <startLine>154</startLine>
         <startColumn>47</startColumn>
-        <endLine>155</endLine>
+        <endLine>154</endLine>
         <endColumn>52</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to character must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>155</line>
-        <index>5075</index>
-        <endIndex>5083</endIndex>
-        <startLine>155</startLine>
+        <line>154</line>
+        <index>5052</index>
+        <endIndex>5060</endIndex>
+        <startLine>154</startLine>
         <startColumn>67</startColumn>
-        <endLine>155</endLine>
+        <endLine>154</endLine>
         <endColumn>75</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to character must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>161</line>
-        <index>5252</index>
-        <endIndex>5260</endIndex>
-        <startLine>161</startLine>
+        <line>160</line>
+        <index>5229</index>
+        <endIndex>5237</endIndex>
+        <startLine>160</startLine>
         <startColumn>17</startColumn>
-        <endLine>161</endLine>
+        <endLine>160</endLine>
         <endColumn>25</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to left must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>159</line>
-        <index>5188</index>
-        <endIndex>5191</endIndex>
-        <startLine>159</startLine>
+        <line>158</line>
+        <index>5165</index>
+        <endIndex>5168</endIndex>
+        <startLine>158</startLine>
         <startColumn>22</startColumn>
-        <endLine>159</endLine>
+        <endLine>158</endLine>
         <endColumn>25</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to character must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>159</line>
-        <index>5198</index>
-        <endIndex>5206</endIndex>
-        <startLine>159</startLine>
+        <line>158</line>
+        <index>5175</index>
+        <endIndex>5183</endIndex>
+        <startLine>158</startLine>
         <startColumn>32</startColumn>
-        <endLine>159</endLine>
+        <endLine>158</endLine>
         <endColumn>40</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to character must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>165</line>
-        <index>5375</index>
-        <endIndex>5383</endIndex>
-        <startLine>165</startLine>
+        <line>164</line>
+        <index>5352</index>
+        <endIndex>5360</endIndex>
+        <startLine>164</startLine>
         <startColumn>17</startColumn>
-        <endLine>165</endLine>
+        <endLine>164</endLine>
         <endColumn>25</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to up must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>163</line>
-        <index>5314</index>
-        <endIndex>5315</endIndex>
-        <startLine>163</startLine>
+        <line>162</line>
+        <index>5291</index>
+        <endIndex>5292</endIndex>
+        <startLine>162</startLine>
         <startColumn>22</startColumn>
-        <endLine>163</endLine>
+        <endLine>162</endLine>
         <endColumn>23</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to character must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>163</line>
-        <index>5322</index>
-        <endIndex>5330</endIndex>
-        <startLine>163</startLine>
+        <line>162</line>
+        <index>5299</index>
+        <endIndex>5307</endIndex>
+        <startLine>162</startLine>
         <startColumn>30</startColumn>
-        <endLine>163</endLine>
+        <endLine>162</endLine>
         <endColumn>38</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to character must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>169</line>
-        <index>5537</index>
-        <endIndex>5545</endIndex>
-        <startLine>169</startLine>
+        <line>168</line>
+        <index>5514</index>
+        <endIndex>5522</endIndex>
+        <startLine>168</startLine>
         <startColumn>17</startColumn>
-        <endLine>169</endLine>
+        <endLine>168</endLine>
         <endColumn>25</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to down must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>167</line>
-        <index>5436</index>
-        <endIndex>5439</endIndex>
-        <startLine>167</startLine>
+        <line>166</line>
+        <index>5413</index>
+        <endIndex>5416</endIndex>
+        <startLine>166</startLine>
         <startColumn>22</startColumn>
-        <endLine>167</endLine>
+        <endLine>166</endLine>
         <endColumn>25</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to character must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>167</line>
-        <index>5446</index>
-        <endIndex>5454</endIndex>
-        <startLine>167</startLine>
+        <line>166</line>
+        <index>5423</index>
+        <endIndex>5431</endIndex>
+        <startLine>166</startLine>
         <startColumn>32</startColumn>
-        <endLine>167</endLine>
+        <endLine>166</endLine>
         <endColumn>40</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to screen must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>167</line>
-        <index>5464</index>
-        <endIndex>5469</endIndex>
-        <startLine>167</startLine>
+        <line>166</line>
+        <index>5441</index>
+        <endIndex>5446</endIndex>
+        <startLine>166</startLine>
         <startColumn>50</startColumn>
-        <endLine>167</endLine>
+        <endLine>166</endLine>
         <endColumn>55</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to character must begin with the 'this.', 'base.', 'object.' or 'Form1.' or 'Form.' prefix to indicate the intended method call. </context>
-        <line>167</line>
-        <index>5485</index>
-        <endIndex>5493</endIndex>
-        <startLine>167</startLine>
+        <line>166</line>
+        <index>5462</index>
+        <endIndex>5470</endIndex>
+        <startLine>166</startLine>
         <startColumn>71</startColumn>
-        <endLine>167</endLine>
+        <endLine>166</endLine>
         <endColumn>79</endColumn>
         <warning>False</warning>
       </violation>
@@ -1961,4 +1877,197 @@
     </timestamps>
     <violations />
   </sourcecode>
+  <sourcecode name="Entity.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2016/01/01 18:01:59.813</styleCop>
+      <settingsFile>2016/01/01 18:01:59.793</settingsFile>
+      <sourceFile>2016/01/01 22:30:25.939</sourceFile>
+      <parser>2016/01/01 18:01:59.813</parser>
+      <StyleCop.CSharp.DocumentationRules>2016/01/01 18:01:59.813</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>233586281</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2016/01/01 18:01:59.813</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2016/01/01 18:01:59.813</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2016/01/01 18:01:59.813</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2016/01/01 18:01:59.813</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2016/01/01 18:01:59.813</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2016/01/01 18:01:59.813</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The class must have a documentation header.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="OpeningCurlyBracketsMustNotBeFollowedByBlankLine" ruleCheckId="SA1505">
+        <context>An opening curly bracket must not be followed by a blank line.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The class must have an access modifier.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All classes must be placed after all interfaces.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The event must have a documentation header.</context>
+        <line>12</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All events must be placed after all fields.</context>
+        <line>15</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All events must be placed after all delegates.</context>
+        <line>17</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All events must be placed after all constructors.</context>
+        <line>19</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The event must have a documentation header.</context>
+        <line>13</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="SA1516">
+        <context>Adjacent elements must be separated by a blank line.</context>
+        <line>13</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>15</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The delegate must have a documentation header.</context>
+        <line>17</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The constructor must have a documentation header.</context>
+        <line>19</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to identification must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>21</line>
+        <index>481</index>
+        <endIndex>494</endIndex>
+        <startLine>21</startLine>
+        <startColumn>13</startColumn>
+        <endLine>21</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>24</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="OpeningCurlyBracketsMustNotBeFollowedByBlankLine" ruleCheckId="SA1505">
+        <context>An opening curly bracket must not be followed by a blank line.</context>
+        <line>25</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>27</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="ElementMustBeginWithUpperCaseLetter" ruleCheckId="SA1300">
+        <context>method names begin with an upper-case letter: add.</context>
+        <line>24</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>29</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="OpeningCurlyBracketsMustNotBeFollowedByBlankLine" ruleCheckId="SA1505">
+        <context>An opening curly bracket must not be followed by a blank line.</context>
+        <line>30</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>32</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="ElementMustBeginWithUpperCaseLetter" ruleCheckId="SA1300">
+        <context>method names begin with an upper-case letter: remove.</context>
+        <line>29</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The interface must have a documentation header.</context>
+        <line>35</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="OpeningCurlyBracketsMustNotBeFollowedByBlankLine" ruleCheckId="SA1505">
+        <context>An opening curly bracket must not be followed by a blank line.</context>
+        <line>36</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>38</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The interface must have an access modifier.</context>
+        <line>35</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <project key="876460256">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
 </stylecopresultscache>

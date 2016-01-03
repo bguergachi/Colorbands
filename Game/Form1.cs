@@ -19,7 +19,7 @@ namespace Game
         bool up;
         bool down;
         bool run;
-        private Rectangle Top;
+        private Rectangle Topp;
         private Rectangle Mid;
         private Rectangle Base1;
         private Rectangle Base2;
@@ -31,12 +31,12 @@ namespace Game
         private Color MidGroundColor;
         private Color Base1GroundColor;
         private Color Base2GroundColor;
-        private bool done =true;
 
         public Form1()
         {
             InitializeComponent();
-            BuildWorld();
+            World.Instantiate();
+            
         }
 
     
@@ -45,15 +45,15 @@ namespace Game
         {
             Graphics g = screen.CreateGraphics();
 
-            g.FillRectangle(new SolidBrush(TopSkyColor), Top);
+            g.FillRectangle(new SolidBrush(TopSkyColor), Topp);
             g.FillRectangle(new SolidBrush(MidSkyColor), Mid);
             g.FillRectangle(new SolidBrush(Base1SkyColor), Base1);
             g.FillRectangle(new SolidBrush(Base2SkyColor), Base2);
 
-            g.FillRectangle(new SolidBrush(TopGroundColor), new Rectangle(0, screen.Height / 2, Top.Width, Top.Height));
-            g.FillRectangle(new SolidBrush(MidGroundColor), new Rectangle(0, screen.Height / 2 + Top.Height, Mid.Width, Mid.Height));
-            g.FillRectangle(new SolidBrush(Base1GroundColor), new Rectangle(0, screen.Height / 2 + Top.Height + Mid.Height, Base1.Width, Base1.Height));
-            g.FillRectangle(new SolidBrush(Base2GroundColor), new Rectangle(0, screen.Height / 2 + Top.Height + Mid.Height + Base1.Height, Base2.Width, Base2.Height));
+            g.FillRectangle(new SolidBrush(TopGroundColor), new Rectangle(0, screen.Height / 2, Topp.Width, Topp.Height));
+            g.FillRectangle(new SolidBrush(MidGroundColor), new Rectangle(0, screen.Height / 2 + Topp.Height, Mid.Width, Mid.Height));
+            g.FillRectangle(new SolidBrush(Base1GroundColor), new Rectangle(0, screen.Height / 2 + Topp.Height + Mid.Height, Base1.Width, Base1.Height));
+            g.FillRectangle(new SolidBrush(Base2GroundColor), new Rectangle(0, screen.Height / 2 + Topp.Height + Mid.Height + Base1.Height, Base2.Width, Base2.Height));
 
             g.DrawString("" + Utility.CalculateFrameRate(),
            new Font(FontFamily.GenericSansSerif, 28, FontStyle.Regular, GraphicsUnit.Pixel), Brushes.Wheat, new PointF(0, 0));
@@ -61,10 +61,10 @@ namespace Game
 
         private void UpdateGame()
         {
-            Top = new Rectangle(0, 0, screen.Width, screen.Height / 4);
-            Mid = new Rectangle(0, Top.Height, screen.Width, screen.Height / 8);
-            Base1 = new Rectangle(0, Mid.Height + Top.Height, screen.Width, screen.Height / 16);
-            Base2 = new Rectangle(0, Base1.Height + Mid.Height + Top.Height, screen.Width, screen.Height / 16);
+            Topp = new Rectangle(0, 0, screen.Width, screen.Height / 4);
+            Mid = new Rectangle(0, Topp.Height, screen.Width, screen.Height / 8);
+            Base1 = new Rectangle(0, Mid.Height + Topp.Height, screen.Width, screen.Height / 16);
+            Base2 = new Rectangle(0, Base1.Height + Mid.Height + Topp.Height, screen.Width, screen.Height / 16);
         }
 
         private void BuildWorld()
