@@ -25,3 +25,10 @@ D:\Color band\Colorbands\Game\obj\Debug\Game.csprojResolveAssemblyReference.cach
 D:\Color band\Colorbands\Game\obj\Debug\Game.Form1.resources
 D:\Color band\Colorbands\Game\obj\Debug\Game.Properties.Resources.resources
 D:\Color band\Colorbands\Game\obj\Debug\Game.csproj.GenerateResource.Cache
+C:\Users\Adam\Source\Repos\Colorbands\Game\bin\Debug\Game.exe.config
+C:\Users\Adam\Source\Repos\Colorbands\Game\obj\Debug\Game.exe
+C:\Users\Adam\Source\Repos\Colorbands\Game\obj\Debug\Game.pdb
+C:\Users\Adam\Source\Repos\Colorbands\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+C:\Users\Adam\Source\Repos\Colorbands\Game\obj\Debug\Game.Form1.resources
+C:\Users\Adam\Source\Repos\Colorbands\Game\obj\Debug\Game.Properties.Resources.resources
+C:\Users\Adam\Source\Repos\Colorbands\Game\obj\Debug\Game.csproj.GenerateResource.Cache
