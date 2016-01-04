@@ -18,37 +18,37 @@ namespace Game
         private Rectangle Mid;
         private Rectangle Base1;
         private Rectangle Base2;
-        //Color of sky and ground
-        private Color TopSkyColor;
+        //Main color based on sky
+        private Color TopSkyColor { get; set; }
+        //All colors derived from sky color
         private Color MidSkyColor;
         private Color Base1SkyColor;
         private Color Base2SkyColor;
-        private Color TopGroundColor;
+        //Main color based on ground
+        private Color TopGroundColor { get; set; }
+        //All colors derived from ground color;
         private Color MidGroundColor;
         private Color Base1GroundColor;
         private Color Base2GroundColor;
-        //Input color value
-        private int SkyColor;
-        private int GroundColor;
         //Screen panel
         private Panel screen;
         
-        private World(int SkyColor, int GroundColor, Panel screen)
+        private World(Color SkyColor, Color GroundColor, Panel screen)
         {
-            if (SkyColor < 0 || SkyColor > 255 || GroundColor < 0 || GroundColor > 255 || screen == null)
+            if (SkyColor == null||GroundColor == null || screen == null)
             {
                 throw new ArgumentException("Input values for world is not acceptable");
             }
-            this.SkyColor = SkyColor;
-            this.GroundColor = GroundColor;
+            TopSkyColor = SkyColor;
+            TopGroundColor = GroundColor;
             this.screen = screen;
         }
-        public static World instantiate(int SkyColor, int GroundColor, Panel screen)
+        public static World instantiate(Color SkyColor, Color GroundColor, Panel screen)
         {
             return new World(SkyColor, GroundColor,screen);
         }
 
-        private void RenderGame()
+        public void RenderWorld()
         {
             Graphics g = screen.CreateGraphics();
 
@@ -66,7 +66,7 @@ namespace Game
            new Font(FontFamily.GenericSansSerif, 28, FontStyle.Regular, GraphicsUnit.Pixel), Brushes.Wheat, new PointF(0, 0));
         }
 
-        private void UpdateGame()
+        public void UpdateWorld()
         {
             Topp = new Rectangle(0, 0, screen.Width, screen.Height / 4);
             Mid = new Rectangle(0, Topp.Height, screen.Width, screen.Height / 8);
@@ -74,19 +74,19 @@ namespace Game
             Base2 = new Rectangle(0, Base1.Height + Mid.Height + Topp.Height, screen.Width, screen.Height / 16);
         }
 
-        private void BuildWorld()
+        public void BuildWorld()
         {
 
-            TopSkyColor = System.Drawing.ColorTranslator.FromHtml("#F64662");
             MidSkyColor = System.Drawing.ColorTranslator.FromHtml("#C61951");
             Base1SkyColor = System.Drawing.ColorTranslator.FromHtml("#741938");
             Base2SkyColor = System.Drawing.ColorTranslator.FromHtml("#56132A");
 
-            TopGroundColor = System.Drawing.ColorTranslator.FromHtml("#3B5F41");
             MidGroundColor = System.Drawing.ColorTranslator.FromHtml("#66A96B");
             Base1GroundColor = System.Drawing.ColorTranslator.FromHtml("#98E19A");
             Base2GroundColor = System.Drawing.ColorTranslator.FromHtml("#C5F5C2");
         }
+
+
 
     }
 }

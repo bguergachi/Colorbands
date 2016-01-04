@@ -26,8 +26,10 @@ namespace Game
         internal event EntityChanged ComponentAdded;
         //when a component is removed retrieve
         internal event EntityChanged ComponentRemoved;
-        //Identification value
-        internal static int identification = 0;
+        //Identification value of components
+        internal int identification = 0;
+
+        
 
         internal int retrieveID { get { return identification; } }
 
@@ -35,36 +37,70 @@ namespace Game
 
         
 
-        public Entity()
-        {
-            identification++;
-        }
+        
 
+        /// <summary>
+        /// Add component to entity
+        /// </summary>
+        /// <param name="component">Component added</param>
         public void Add(IComponent component)
         {
             if (component == null) throw new NullReferenceException("Component can't be null");
-
+            identification++;
             list.Add(component);
         }
 
+        /// <summary>
+        /// Remove component from entity
+        /// </summary>
+        /// <param name="component">component removed</param>
         public void Remove(IComponent component)
         {
+            if(identification<0) throw new ArgumentException("Nothing to remove");
+            identification--;
             list.Remove(component);
 
         }
 
+        /// <summary>
+        /// Replace component 1 with component 2
+        /// </summary>
+        /// <param name="component1">Component to replace</param>
+        /// <param name="component2">Component to place</param>
+        public void Replace(IComponent component1, IComponent component2)
+        {
+            list.Remove(component1);
 
+            list.Add(component2);
+        }
+
+
+        /// <summary>
+        /// Call or remove component at id
+        /// </summary>
+        /// <param name="index">Id value</param>
+        /// <returns>Component called</returns>
         public IComponent this[int index]
         {
             get
             {
                 return list[index];
             }
+
+            set
+            {
+                list[index] = null;
+            }
         }
     }
 
-    public interface IComponent
+    public  interface IComponent
     {
+
+        /// <summary>
+        /// Location of
+        /// </summary>
+        public int x 
 
     }
 }
