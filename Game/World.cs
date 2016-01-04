@@ -8,73 +8,84 @@ using System.Windows.Forms;
 
 
 
+
 namespace Game
 {
     public class World
     {
-        //Bars on screen
-        protected Rectangle Topp;
-        protected Rectangle Mid;
-        protected Rectangle Base1;
-        protected Rectangle Base2;
-        //Colors on screen
-        protected Color TopSkyColor;
-        protected Color MidSkyColor;
-        protected Color Base1SkyColor;
-        protected Color Base2SkyColor;
-        protected Color TopGroundColor;
-        protected Color MidGroundColor;
-        protected Color Base1GroundColor;
-        protected Color Base2GroundColor;
-
-        /// <summary>
-        /// Instantiate world once
-        /// </summary>
-        /// <param name="TopSky">Main color of top sky</param>
-        /// <param name="TopGround">Main color of top ground</param>
-        /// <returns></returns>
-        public static World Instantiate(string TopSky, string TopGround, Panel screen)
+        //Rectangle of sky and ground
+        private Rectangle Topp;
+        private Rectangle Mid;
+        private Rectangle Base1;
+        private Rectangle Base2;
+        //Main color based on sky
+        private Color TopSkyColor { get; set; }
+        //All colors derived from sky color
+        private Color MidSkyColor;
+        private Color Base1SkyColor;
+        private Color Base2SkyColor;
+        //Main color based on ground
+        private Color TopGroundColor { get; set; }
+        //All colors derived from ground color;
+        private Color MidGroundColor;
+        private Color Base1GroundColor;
+        private Color Base2GroundColor;
+        //Screen panel
+        private Panel screen;
+        
+        private World(Color SkyColor, Color GroundColor, Panel screen)
         {
-            return new World(TopSky, TopGround, screen);
-        }
-
-        private World(string TopSky, string TopGround, Panel screen)
-        {
-            string temp;
-            while (true)
+            if (SkyColor == null||GroundColor == null || screen == null)
             {
-                
-                if (TopSky[0] != '#' || TopSky.Length != 7)
-                {
-                    throw new ArgumentException("This must be a Hex value");
-                }
+                throw new ArgumentException("Input values for world is not acceptable");
             }
-
+            TopSkyColor = SkyColor;
+            TopGroundColor = GroundColor;
+            this.screen = screen;
+        }
+        public static World instantiate(Color SkyColor, Color GroundColor, Panel screen)
+        {
+            return new World(SkyColor, GroundColor,screen);
         }
 
-        private void BuildWorld(int color)
+        public void RenderWorld()
+        {
+            Graphics g = screen.CreateGraphics();
+
+            g.FillRectangle(new SolidBrush(TopSkyColor), Topp);
+            g.FillRectangle(new SolidBrush(MidSkyColor), Mid);
+            g.FillRectangle(new SolidBrush(Base1SkyColor), Base1);
+            g.FillRectangle(new SolidBrush(Base2SkyColor), Base2);
+
+            g.FillRectangle(new SolidBrush(TopGroundColor), new Rectangle(0, screen.Height / 2, Topp.Width, Topp.Height));
+            g.FillRectangle(new SolidBrush(MidGroundColor), new Rectangle(0, screen.Height / 2 + Topp.Height, Mid.Width, Mid.Height));
+            g.FillRectangle(new SolidBrush(Base1GroundColor), new Rectangle(0, screen.Height / 2 + Topp.Height + Mid.Height, Base1.Width, Base1.Height));
+            g.FillRectangle(new SolidBrush(Base2GroundColor), new Rectangle(0, screen.Height / 2 + Topp.Height + Mid.Height + Base1.Height, Base2.Width, Base2.Height));
+
+            g.DrawString("" + Utility.CalculateFrameRate(),
+           new Font(FontFamily.GenericSansSerif, 28, FontStyle.Regular, GraphicsUnit.Pixel), Brushes.Wheat, new PointF(0, 0));
+        }
+
+        public void UpdateWorld()
+        {
+            Topp = new Rectangle(0, 0, screen.Width, screen.Height / 4);
+            Mid = new Rectangle(0, Topp.Height, screen.Width, screen.Height / 8);
+            Base1 = new Rectangle(0, Mid.Height + Topp.Height, screen.Width, screen.Height / 16);
+            Base2 = new Rectangle(0, Base1.Height + Mid.Height + Topp.Height, screen.Width, screen.Height / 16);
+        }
+
+        public void BuildWorld()
         {
 
-            TopSkyColor = System.Drawing.ColorTranslator.FromHtml("#F64662");
             MidSkyColor = System.Drawing.ColorTranslator.FromHtml("#C61951");
             Base1SkyColor = System.Drawing.ColorTranslator.FromHtml("#741938");
             Base2SkyColor = System.Drawing.ColorTranslator.FromHtml("#56132A");
 
-            TopGroundColor = System.Drawing.ColorTranslator.FromHtml("#3B5F41");
             MidGroundColor = System.Drawing.ColorTranslator.FromHtml("#66A96B");
             Base1GroundColor = System.Drawing.ColorTranslator.FromHtml("#98E19A");
             Base2GroundColor = System.Drawing.ColorTranslator.FromHtml("#C5F5C2");
         }
 
-        private void UpdateWorld()
-        {
-
-        }
-
-        private void RenderWorld()
-        {
-
-        }
 
 
     }

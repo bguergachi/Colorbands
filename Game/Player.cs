@@ -6,8 +6,20 @@ using System.Threading.Tasks;
 
 namespace Game
 {
+
+    /// <summary>
+    /// Player class
+    /// </summary>
     class Player
     {
+        //Player entity
+        public Entity playerEntities = new Entity();
+
+        
+        
+
+
+
 
     }
 }
