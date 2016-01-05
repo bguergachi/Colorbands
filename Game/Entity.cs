@@ -7,7 +7,6 @@ using System.Collections;
 
 namespace Game
 {
-    public delegate void EntityChanged(Entity entity, int identification, IComponent component);
 
     /**
     * A game entity is a collection object for components. Sometimes, the entities in a game
@@ -22,22 +21,31 @@ namespace Game
     */
     public class Entity
     {
+        //Event delegate signature
+        public delegate void EntityChanged(object sender, EventArgs args);
         //when a component is added
-        internal event EntityChanged ComponentAdded;
+        public event EntityChanged ComponentAdded;
         //when a component is removed retrieve
-        internal event EntityChanged ComponentRemoved;
+        public event EntityChanged ComponentRemoved;
         //Identification value of components
-        internal int identification = 0;
-
-        
-
-        internal int retrieveID { get { return identification; } }
+        public int identification = 0;
+        //Property used to get the identification value
+        public int Identification { get { return identification; } }
 
         private List<IComponent> list = new List<IComponent>();
 
-        
 
-        
+        protected virtual void OnComponentAdded()
+        {
+            if (ComponentAdded != null)
+                ComponentAdded(this, EventArgs.Empty);
+        }
+
+        protected virtual void OnComponentRemoved()
+        {
+            if (ComponentAdded != null)
+                ComponentAdded(this, EventArgs.Empty);
+        }
 
         /// <summary>
         /// Add component to entity
@@ -48,6 +56,7 @@ namespace Game
             if (component == null) throw new NullReferenceException("Component can't be null");
             identification++;
             list.Add(component);
+            OnComponentAdded();
         }
 
         /// <summary>
@@ -56,9 +65,10 @@ namespace Game
         /// <param name="component">component removed</param>
         public void Remove(IComponent component)
         {
-            if(identification<0) throw new ArgumentException("Nothing to remove");
+            if (identification < 0) throw new ArgumentException("Nothing to remove");
             identification--;
             list.Remove(component);
+            OnComponentRemoved();
 
         }
 
@@ -94,13 +104,8 @@ namespace Game
         }
     }
 
-    public  interface IComponent
+    public interface IComponent
     {
-
-        /// <summary>
-        /// Location of
-        /// </summary>
-        public int x 
 
     }
 }
