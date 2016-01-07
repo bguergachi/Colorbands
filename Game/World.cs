@@ -146,11 +146,11 @@ namespace Game
         {
             if (chose == 's')
             {
-                return (62.8 * Math.Pow(value, 1 / 3) + 158.9)/TOP_SKY_COLOR_CONST;
+                return (62.8 * Math.Pow(index, 1 / 3) + 158.9)/TOP_SKY_COLOR_CONST;
             }
             else if (chose == 'g')
             {
-                return (43.4 * value + 21.5) / TOP_GROUND_COLOR_CONST;
+                return (43.4 * index + 21.5) / TOP_GROUND_COLOR_CONST;
             }
             return 0;
         }
@@ -165,11 +165,11 @@ namespace Game
         {
             if (chose == 's')
             {
-                return (1.414 * Math.Pow(-0.01118 * value - 3.548, 6) - 2809)/ TOP_SKY_COLOR_CONST;
+                return (1.414 * Math.Pow(-0.01118 * index - 3.548, 6) - 2809)/ TOP_SKY_COLOR_CONST;
             }
             else if (chose == 'g')
             {
-                return (-1.023 * Math.Pow(-0.5101 * value + 4.109, 4) + 265.7) / TOP_GROUND_COLOR_CONST;
+                return (-1.023 * Math.Pow(-0.5101 * index + 4.109, 4) + 265.7) / TOP_GROUND_COLOR_CONST;
             }
             return 0;
         }
@@ -184,11 +184,11 @@ namespace Game
         {
             if (chose == 's')
             {
-                return (0.3583 * Math.Pow(1.306 * value - 5.073, 3) + 90.01) / TOP_SKY_COLOR_CONST;
+                return (0.3583 * Math.Pow(1.306 * index - 5.073, 3) + 90.01) / TOP_SKY_COLOR_CONST;
             }
             else if (chose == 'g')
             {
-                return (46.4 * value + 11.5)/ TOP_GROUND_COLOR_CONST;
+                return (46.4 * index + 11.5)/ TOP_GROUND_COLOR_CONST;
             }
             return 0;
         }

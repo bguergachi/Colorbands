@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Game
+namespace Game.Entity_System
 {
-    class Item : Entity
+    public interface IComponent
     {
 
     }

@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Game
 {
-    class Item : Entity
+    class Sun : Entity
     {
+        
 
     }
 }

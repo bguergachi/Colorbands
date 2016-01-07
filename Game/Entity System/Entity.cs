@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
+using Game.Entity_System;
 
 namespace Game
 {
@@ -19,7 +20,7 @@ namespace Game
     * <p>All entities that have a position in the game world, will have an instance of the
     * position component. Systems operate on entities based on the components they have.</p>
     */
-    public class Entity
+    abstract class Entity
     {
         //Event delegate signature
         public delegate void EntityChanged(object sender, EventArgs args);
@@ -104,8 +105,5 @@ namespace Game
         }
     }
 
-    public interface IComponent
-    {
-
-    }
+    
 }
