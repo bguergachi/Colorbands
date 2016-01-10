@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Collections;
 using Game.Entity_System;
 
-namespace Game
+namespace Game.Entity_System
 {
 
     /**
@@ -20,7 +20,7 @@ namespace Game
     * <p>All entities that have a position in the game world, will have an instance of the
     * position component. Systems operate on entities based on the components they have.</p>
     */
-    abstract class Entity
+    abstract public class Entity
     {
         //Event delegate signature
         public delegate void EntityChanged(object sender, EventArgs args);
@@ -29,11 +29,36 @@ namespace Game
         //when a component is removed retrieve
         public event EntityChanged ComponentRemoved;
         //Identification value of components
-        public int identification = 0;
+        protected int identification = 0;
         //Property used to get the identification value
         public int Identification { get { return identification; } }
+        //List of components
+        protected List<IComponent> list = new List<IComponent>();
+        //Flag to show paint
+        private bool paint;
+        //Boolean to set if paint has been set;
+        private bool set = false;
 
-        private List<IComponent> list = new List<IComponent>();
+        public bool Paint
+        {
+            get
+            {
+                if (set)
+                {
+                    return paint;
+                }
+                else
+                {
+                    throw new NullReferenceException("Paint value is not set");
+                }
+            }
+            set
+            {
+                set = true;
+                paint = value;
+            }
+        }
+
 
 
         protected virtual void OnComponentAdded()
@@ -87,23 +112,18 @@ namespace Game
 
 
         /// <summary>
-        /// Call or remove component at id
+        /// Call component list
         /// </summary>
-        /// <param name="index">Id value</param>
         /// <returns>Component called</returns>
-        public IComponent this[int index]
+        public List<IComponent> components
         {
             get
             {
-                return list[index];
-            }
-
-            set
-            {
-                list[index] = null;
+                return list;
             }
         }
     }
 
-    
+
+
 }

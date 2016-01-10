@@ -7,19 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Game.Rendering;
+using Game.Entity_System;
+using Game.Entity_System.Components;
 
 namespace Game
 {
     public partial class Form1 : Form
     {
-        World world;
-        readonly int MOVEMENT_SPEED = 10;
-        readonly int RUN_SPEED = 20;
-        bool right;
-        bool left;
-        bool up;
-        bool down;
-        bool run;
+        public World world;
+        public Sun sun;
+        public Player thePlayer;
+        private Item item1;
+
         //private Rectangle Topp;
         //private Rectangle Mid;
         //private Rectangle Base1;
@@ -35,13 +35,37 @@ namespace Game
 
         public Form1()
         {
-
-            world = World.instantiate();
             InitializeComponent();
+            RunGame();
+
         }
 
-    
 
+        public void RunGame()
+        {
+            // create world
+            world = World.instantiate(screen);
+
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+
+
+            // create the player
+            thePlayer = new Player();
+            thePlayer.Add(new Physics(new PointF(10, 10), new Size(490, 220)));
+            thePlayer.Add(new Drawing(global::Game.Properties.Resources.character_color));
+            thePlayer.Paint = true;
+
+            // create building
+            item1 = new Item();
+            item1.Add(new Physics(new PointF(120, 120), new Size(100,100)));
+            item1.Add(new Drawing(item1.ShapeToDraw));
+            item1.Paint = true;
+
+            world.AddEntity(thePlayer);
+            world.AddEntity(item1);
+
+
+        }
         //private void RenderGame()
         //{
         //    Graphics g = screen.CreateGraphics();
@@ -82,88 +106,24 @@ namespace Game
         //    Base2GroundColor = System.Drawing.ColorTranslator.FromHtml("#C5F5C2");
         //}
 
-        public void character_KeyPushed(object sender, KeyEventArgs e)
-        {
-
-            switch (e.KeyCode)
-            {
-                case Keys.D:
-                    right = true;
-                    break;
-                case Keys.A:
-                    left = true;
-                    break;
-                case Keys.W:
-                    up = true;
-                    break;
-                case Keys.S:
-                    down = true;
-                    break;
-                case Keys.ShiftKey:
-                    run = true;
-                    break;
-            }
-        }
-
-
-        public void character_KeyReleased(object sender, KeyEventArgs e)
-        {
-
-            switch (e.KeyCode)
-            {
-                case Keys.D:
-                    right = false;
-                    break;
-                case Keys.A:
-                    left = false;
-                    break;
-                case Keys.W:
-                    up = false;
-                    break;
-                case Keys.S:
-                    down = false;
-                    break;
-                case Keys.ShiftKey:
-                    run = false;
-                    break;
-            }
-        }
-
-
         private void timer1_Tick(object sender, EventArgs e)
         {
-            UpdateGame();
-            RenderGame();
-            if (run)
-            {
-                Move(RUN_SPEED);
-            }
-            else
-            {
-                Move(MOVEMENT_SPEED);
-            }
+
+            world.RenderWorld();
+            Console.WriteLine("Tick");
+            //if (run)
+            //{
+            //    Move(RUN_SPEED);
+            //}
+            //else
+            //{
+            //    Move(MOVEMENT_SPEED);
+            //}
         }
 
 
 
-        private void Move(int speed)
-        {
-            if (right && !(character.Left >= (screen.Size.Width - character.Width)))
-            {
-                character.Left += speed;
-            }
-            else if (left && !(character.Left <= 0))
-            {
-                character.Left -= speed;
-            }
-            else if (up && !(character.Top <= 0))
-            {
-                character.Top -= speed;
-            }
-            else if (down && !(character.Top >= (screen.Size.Height - character.Height)))
-            {
-                character.Top += speed;
-            }
-        }
+
     }
 }
+

@@ -32,3 +32,5 @@ C:\Users\Adam\Source\Repos\Colorbands\Game\obj\Debug\Game.csprojResolveAssemblyR
 C:\Users\Adam\Source\Repos\Colorbands\Game\obj\Debug\Game.Form1.resources
 C:\Users\Adam\Source\Repos\Colorbands\Game\obj\Debug\Game.Properties.Resources.resources
 C:\Users\Adam\Source\Repos\Colorbands\Game\obj\Debug\Game.csproj.GenerateResource.Cache
+C:\Users\Adam\Source\Repos\Colorbands\Game\bin\Debug\Game.exe
+C:\Users\Adam\Source\Repos\Colorbands\Game\bin\Debug\Game.pdb
