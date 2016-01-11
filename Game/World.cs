@@ -11,25 +11,20 @@ using Game.Entity_System.Components;
 namespace Game.Rendering
 {
 
-    public class World
+    public class World : Panel
+
     {
 
         //World that can only be instantiated once
         private static World world;
-        //Screen panel
-        private Panel screen;
         //List of entities
         List<Entity> entities = new List<Entity>();
 
+      
 
-
-        private World(Panel screen)
+        public World()
         {
-            if (screen == null)
-            {
-                throw new ArgumentException("Input values for world is not acceptable");
-            }
-            this.screen = screen;
+            this.DoubleBuffered = true;
         }
 
         /// <summary>
@@ -39,12 +34,12 @@ namespace Game.Rendering
         /// <param name="GroundColor">Color of ground</param>
         /// <param name="screen">The panel the world is to be drawn on</param>
         /// <returns></returns>
-        public static World instantiate(Panel screen)
+        public static World instantiate()
         {
             //Allow world to be instantiated once
             if (world == null)
             {
-                world = new World(screen);
+                world = new World();
             }
             else
             {
@@ -64,11 +59,20 @@ namespace Game.Rendering
             if (entities.Capacity == 0) throw new ArgumentException("Nothing to remove");
             entities.Remove(entity);
         }
-        Physics entityLocation;
+        Physics entityPhysics;
         Drawing entityDrawing;
 
         public void RenderWorld()
         {
+            Invalidate();
+
+            
+        }
+
+
+        protected override void OnPaint(PaintEventArgs e)
+        {
+
             foreach (Entity entity in entities)
             {
                 if (entity.Paint)
@@ -77,28 +81,35 @@ namespace Game.Rendering
                     {
                         if (component is Physics)
                         {
-                            entityLocation = (Physics)component;
+                            entityPhysics = (Physics)component;
                         }
                         if (component is Drawing)
                         {
                             entityDrawing = (Drawing)component;
+                            drawEntity(e.Graphics);
+                           
                         }
+
                     }
-                    drawEntity(entityDrawing, entityLocation);
+
                 }
             }
+            Console.WriteLine("Draw");
+
+         
+            base.OnPaint(e);
         }
 
-
-        private void drawEntity(Drawing entityDrawing, Physics entityLocation)
+        private void drawEntity(Graphics g)
         {
-            if (entityDrawing != null && entityLocation != null)
+            if (entityDrawing != null && entityPhysics != null)
             {
-                Graphics g = screen.CreateGraphics();
+               
 
                 if (entityDrawing.Image != null)
                 {
-                    g.DrawImage(entityDrawing.Image, entityLocation.Point);
+                    g.DrawImage(entityDrawing.Image, entityPhysics.Point);
+
                 }
                 else if (entityDrawing.drawDelegate != null)
                 {

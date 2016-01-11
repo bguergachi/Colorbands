@@ -38,6 +38,7 @@ namespace Game.Entity_System
         private bool paint;
         //Boolean to set if paint has been set;
         private bool set = false;
+        //Boolean to decide if entity has been painted 
 
         public bool Paint
         {
@@ -58,7 +59,6 @@ namespace Game.Entity_System
                 paint = value;
             }
         }
-
 
 
         protected virtual void OnComponentAdded()

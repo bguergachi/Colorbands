@@ -63,9 +63,9 @@ namespace Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap character_color {
+        internal static System.Drawing.Bitmap character {
             get {
-                object obj = ResourceManager.GetObject("character-color", resourceCulture);
+                object obj = ResourceManager.GetObject("character", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

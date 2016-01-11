@@ -15,7 +15,6 @@ namespace Game
 {
     public partial class Form1 : Form
     {
-        public World world;
         public Sun sun;
         public Player thePlayer;
         private Item item1;
@@ -41,18 +40,16 @@ namespace Game
         }
 
 
+        /// <summary>
+        /// Where the components and entities are added to run the game
+        /// </summary>
         public void RunGame()
         {
-            // create world
-            world = World.instantiate(screen);
-
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-
 
             // create the player
-            thePlayer = new Player();
-            thePlayer.Add(new Physics(new PointF(10, 10), new Size(490, 220)));
-            thePlayer.Add(new Drawing(global::Game.Properties.Resources.character_color));
+            thePlayer = new Player(world);
+            thePlayer.Add(new Physics(new PointF(10, 10)));
+            thePlayer.Add(new Drawing(Properties.Resources.character));
             thePlayer.Paint = true;
 
             // create building
@@ -64,8 +61,16 @@ namespace Game
             world.AddEntity(thePlayer);
             world.AddEntity(item1);
 
+            events();
 
         }
+
+        private void events()
+        {
+            KeyDown += new System.Windows.Forms.KeyEventHandler(thePlayer.player_KeyPushed);
+            KeyUp += new System.Windows.Forms.KeyEventHandler(thePlayer.player_KeyReleased);
+        }
+
         //private void RenderGame()
         //{
         //    Graphics g = screen.CreateGraphics();
@@ -110,19 +115,9 @@ namespace Game
         {
 
             world.RenderWorld();
-            Console.WriteLine("Tick");
-            //if (run)
-            //{
-            //    Move(RUN_SPEED);
-            //}
-            //else
-            //{
-            //    Move(MOVEMENT_SPEED);
-            //}
+            thePlayer.Movment();
+
         }
-
-
-
 
     }
 }

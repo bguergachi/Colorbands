@@ -1,4 +1,5 @@
 ﻿using Game.Entity_System;
+using Game.Entity_System.Components;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -16,18 +17,51 @@ namespace Game
     public sealed class Player : Entity
     {
         //Moment speed consents
-        readonly int MOVEMENT_SPEED = 10;
-        readonly int RUN_SPEED = 20;
+        readonly float MOVEMENT_SPEED = 10f;
+        readonly float RUN_SPEED = 20f;
         //Movement boolean
         bool right;
         bool left;
         bool up;
         bool down;
+        //Allow running
         bool run;
         //Screen panel
         private Panel screen;
-        //Position of player
-        private PointF position;
+        //Player physics
+        public Physics playerPhysics;
+        //Position of character
+        private PointF point;
+
+
+        public float Left
+        {
+            get
+            {
+                return point.X;
+            }
+            set
+            {
+                point.X = value;
+            }
+        }
+
+        public float Top
+        {
+            get
+            {
+                return point.Y;
+            }
+            set
+            {
+                point.Y = value;
+            }
+        }
+        public Player(Panel screen)
+        {
+            this.screen = screen;
+
+        }
 
 
         public void player_KeyPushed(object sender, KeyEventArgs e)
@@ -52,6 +86,7 @@ namespace Game
             }
         }
 
+
         public void player_KeyReleased(object sender, KeyEventArgs e)
         {
 
@@ -75,7 +110,46 @@ namespace Game
             }
         }
 
+        public void Movment()
+        {
+            playerPhysics = (Physics)list.Find(x => x.GetType() == typeof(Physics));
 
+            if (run)
+            {
+                Move(RUN_SPEED);
+            }
+            else
+            {
+                Move(MOVEMENT_SPEED);
+            }
+
+        }
+
+        private void Move(float speed)
+        {
+
+            point = playerPhysics.Point;
+
+
+            if (right && !(Left >= (screen.Size.Width - playerPhysics.Size.Width)))
+            {
+                Left += speed;
+            }
+            else if (left && !(Left <= 0))
+            {
+                Left -= speed;
+            }
+            else if (up && !(Top <= 0))
+            {
+                Top -= speed;
+            }
+            else if (down && !(Top >= (screen.Size.Height - playerPhysics.Size.Height)))
+            {
+                Top += speed;
+            }
+
+            playerPhysics.Point = point;
+        }
 
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace Game
+﻿using Game.Rendering;
+
+namespace Game
 {
     partial class Form1
     {
@@ -29,18 +31,18 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.screen = new System.Windows.Forms.Panel();
+            this.world = new World();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // screen
             // 
-            this.screen.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.screen.Location = new System.Drawing.Point(0, 0);
-            this.screen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.screen.Name = "screen";
-            this.screen.Size = new System.Drawing.Size(752, 609);
-            this.screen.TabIndex = 0;
+            this.world.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.world.Location = new System.Drawing.Point(0, 0);
+            this.world.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.world.Name = "World";
+            this.world.Size = new System.Drawing.Size(752, 609);
+            this.world.TabIndex = 0;
             // 
             // timer1
             // 
@@ -53,7 +55,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(752, 609);
-            this.Controls.Add(this.screen);
+            this.Controls.Add(this.world);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
@@ -65,7 +67,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel screen;
+        private World world;
         private System.Windows.Forms.Timer timer1;
     }
 }
