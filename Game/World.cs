@@ -20,33 +20,14 @@ namespace Game.Rendering
         //List of entities
         List<Entity> entities = new List<Entity>();
 
-      
+
 
         public World()
         {
             this.DoubleBuffered = true;
         }
 
-        /// <summary>
-        /// Method used to allow instantiation of the World class once.
-        /// </summary>
-        /// <param name="SkyColor">Color of the sky</param>
-        /// <param name="GroundColor">Color of ground</param>
-        /// <param name="screen">The panel the world is to be drawn on</param>
-        /// <returns></returns>
-        public static World instantiate()
-        {
-            //Allow world to be instantiated once
-            if (world == null)
-            {
-                world = new World();
-            }
-            else
-            {
-                throw new NullReferenceException("This object can only be instantiated once");
-            }
-            return world;
-        }
+        
 
         public void AddEntity(Entity entity)
         {
@@ -66,7 +47,7 @@ namespace Game.Rendering
         {
             Invalidate();
 
-            
+
         }
 
 
@@ -87,16 +68,17 @@ namespace Game.Rendering
                         {
                             entityDrawing = (Drawing)component;
                             drawEntity(e.Graphics);
-                           
+
                         }
 
                     }
 
                 }
             }
-            Console.WriteLine("Draw");
+            
+            e.Graphics.DrawString("" + Utility.CalculateFrameRate(),
+            new Font(FontFamily.GenericSansSerif, 28, FontStyle.Regular, GraphicsUnit.Pixel), Brushes.Black, new PointF(0, 0));
 
-         
             base.OnPaint(e);
         }
 
@@ -104,7 +86,7 @@ namespace Game.Rendering
         {
             if (entityDrawing != null && entityPhysics != null)
             {
-               
+
 
                 if (entityDrawing.Image != null)
                 {

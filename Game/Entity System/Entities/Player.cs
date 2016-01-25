@@ -123,7 +123,7 @@ namespace Game
                 Move(MOVEMENT_SPEED);
             }
 
-        }
+          }
 
         private void Move(float speed)
         {

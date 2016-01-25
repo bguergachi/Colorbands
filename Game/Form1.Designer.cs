@@ -1,4 +1,6 @@
 ﻿using Game.Rendering;
+using System.Drawing;
+using System.Windows.Forms;
 
 namespace Game
 {
@@ -32,7 +34,7 @@ namespace Game
         {
             this.components = new System.ComponentModel.Container();
             this.world = new World();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.GameLoop = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // screen
@@ -44,11 +46,11 @@ namespace Game
             this.world.Size = new System.Drawing.Size(752, 609);
             this.world.TabIndex = 0;
             // 
-            // timer1
+            // GameLoop
             // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 15;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.GameLoop.Enabled = true;
+            this.GameLoop.Interval = 15;
+            this.GameLoop.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
@@ -68,7 +70,8 @@ namespace Game
         #endregion
 
         private World world;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer GameLoop;
+        private Sky theSky;
     }
 }
 

@@ -52,14 +52,11 @@ namespace Game
             thePlayer.Add(new Drawing(Properties.Resources.character));
             thePlayer.Paint = true;
 
-            // create building
-            item1 = new Item();
-            item1.Add(new Physics(new PointF(120, 120), new Size(100,100)));
-            item1.Add(new Drawing(item1.ShapeToDraw));
-            item1.Paint = true;
+            theSky = new Sky(Color.SkyBlue);
+            theSky.Add(new Physics(new PointF(0, 0)));
+            theSky.Add(new Drawing())
 
             world.AddEntity(thePlayer);
-            world.AddEntity(item1);
 
             events();
 
