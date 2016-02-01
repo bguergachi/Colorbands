@@ -45,6 +45,7 @@ namespace Game
         /// </summary>
         public void RunGame()
         {
+            //MAKE SURE TO SET PAINT TO TRUE!!!!
 
             // create the player
             thePlayer = new Player(world);
@@ -52,10 +53,13 @@ namespace Game
             thePlayer.Add(new Drawing(Properties.Resources.character));
             thePlayer.Paint = true;
 
-            theSky = new Sky(Color.SkyBlue);
+            theSky = new Sky(Color.SkyBlue, world);
             theSky.Add(new Physics(new PointF(0, 0)));
-            theSky.Add(new Drawing())
+            theSky.Add(new Drawing(theSky.Draw));
+            theSky.Paint = true;
+            
 
+            world.AddEntity(theSky);
             world.AddEntity(thePlayer);
 
             events();

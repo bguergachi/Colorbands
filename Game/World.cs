@@ -76,7 +76,7 @@ namespace Game.Rendering
                 }
             }
             
-            e.Graphics.DrawString("" + Utility.CalculateFrameRate(),
+            e.Graphics.DrawString("" + FrameRate.CalculateFrameRate(),
             new Font(FontFamily.GenericSansSerif, 28, FontStyle.Regular, GraphicsUnit.Pixel), Brushes.Black, new PointF(0, 0));
 
             base.OnPaint(e);

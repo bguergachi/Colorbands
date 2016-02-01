@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Game
 {
-    public class Utility
+    public class FrameRate
     {
         #region Basic Frame Counter
 

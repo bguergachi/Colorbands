@@ -74,7 +74,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Utility.cs" />
+    <Compile Include="Utillity\FrameRate.cs" />
     <Compile Include="World.cs">
       <SubType>Component</SubType>
     </Compile>

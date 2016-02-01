@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Game.Rendering;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -11,9 +12,11 @@ namespace Game
 
     class Ground:Sky
     {
-        public Ground(Color color, Panel screen) : base(color,screen)
+        public Ground(Color color, World screen) : base(color,screen)
         {
-
+            this.choice = 'g';
         }
+
+
     }
 }
