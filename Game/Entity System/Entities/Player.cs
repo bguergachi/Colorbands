@@ -110,7 +110,10 @@ namespace Game
             }
         }
 
-        public void Movment()
+        /// <summary>
+        /// Update position of player
+        /// </summary>
+        public void Update()
         {
             playerPhysics = (Physics)list.Find(x => x.GetType() == typeof(Physics));
 

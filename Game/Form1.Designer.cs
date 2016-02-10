@@ -72,6 +72,8 @@ namespace Game
         private World world;
         private System.Windows.Forms.Timer GameLoop;
         private Sky theSky;
+        private Sun theSun;
+        private Ground theGround;
     }
 }
 

@@ -19,18 +19,6 @@ namespace Game
         public Player thePlayer;
         private Item item1;
 
-        //private Rectangle Topp;
-        //private Rectangle Mid;
-        //private Rectangle Base1;
-        //private Rectangle Base2;
-        //private Color TopSkyColor;
-        //private Color MidSkyColor;
-        //private Color Base1SkyColor;
-        //private Color Base2SkyColor;
-        //private Color TopGroundColor;
-        //private Color MidGroundColor;
-        //private Color Base1GroundColor;
-        //private Color Base2GroundColor;
 
         public Form1()
         {
@@ -46,20 +34,34 @@ namespace Game
         public void RunGame()
         {
             //MAKE SURE TO SET PAINT TO TRUE!!!!
-
-            // create the player
+            //Create the player
             thePlayer = new Player(world);
-            thePlayer.Add(new Physics(new PointF(10, 10)));
+            thePlayer.Add(new Physics(new PointF(10, world.Height / 2 + Properties.Resources.character.Height/3)));
             thePlayer.Add(new Drawing(Properties.Resources.character));
             thePlayer.Paint = true;
 
-            theSky = new Sky(Color.SkyBlue, world);
+            //Create sun
+            theSun = new Sun(world);
+            theSun.Add(new Physics(theSun.center));
+            theSun.Add(new Drawing(theSun.DrawSun));
+            theSun.Paint = true;
+
+            //Create sky
+            theSky = new Sky(Color.Red, world);
             theSky.Add(new Physics(new PointF(0, 0)));
-            theSky.Add(new Drawing(theSky.Draw));
+            theSky.Add(new Drawing(theSky.DrawSky));
             theSky.Paint = true;
-            
+
+            //Create Ground
+            theGround = new Ground(world);
+            theGround.Add(new Physics(new PointF(world.Width, world.Height)));
+            theGround.Add(new Drawing(theGround.DrawGround));
+            theGround.Paint = true;
+
 
             world.AddEntity(theSky);
+            world.AddEntity(theSun);
+            world.AddEntity(theGround);
             world.AddEntity(thePlayer);
 
             events();
@@ -68,55 +70,19 @@ namespace Game
 
         private void events()
         {
-            KeyDown += new System.Windows.Forms.KeyEventHandler(thePlayer.player_KeyPushed);
-            KeyUp += new System.Windows.Forms.KeyEventHandler(thePlayer.player_KeyReleased);
+            KeyDown += new KeyEventHandler(thePlayer.player_KeyPushed);
+            KeyUp += new KeyEventHandler(thePlayer.player_KeyReleased);
+            world.MouseWheel += new MouseEventHandler(theSun.sun_MouseWheel);
         }
 
-        //private void RenderGame()
-        //{
-        //    Graphics g = screen.CreateGraphics();
-
-        //    g.FillRectangle(new SolidBrush(TopSkyColor), Topp);
-        //    g.FillRectangle(new SolidBrush(MidSkyColor), Mid);
-        //    g.FillRectangle(new SolidBrush(Base1SkyColor), Base1);
-        //    g.FillRectangle(new SolidBrush(Base2SkyColor), Base2);
-
-        //    g.FillRectangle(new SolidBrush(TopGroundColor), new Rectangle(0, screen.Height / 2, Topp.Width, Topp.Height));
-        //    g.FillRectangle(new SolidBrush(MidGroundColor), new Rectangle(0, screen.Height / 2 + Topp.Height, Mid.Width, Mid.Height));
-        //    g.FillRectangle(new SolidBrush(Base1GroundColor), new Rectangle(0, screen.Height / 2 + Topp.Height + Mid.Height, Base1.Width, Base1.Height));
-        //    g.FillRectangle(new SolidBrush(Base2GroundColor), new Rectangle(0, screen.Height / 2 + Topp.Height + Mid.Height + Base1.Height, Base2.Width, Base2.Height));
-
-        //    g.DrawString("" + Utility.CalculateFrameRate(),
-        //   new Font(FontFamily.GenericSansSerif, 28, FontStyle.Regular, GraphicsUnit.Pixel), Brushes.Wheat, new PointF(0, 0));
-        //}
-
-        //private void UpdateGame()
-        //{
-        //    Topp = new Rectangle(0, 0, screen.Width, screen.Height / 4);
-        //    Mid = new Rectangle(0, Topp.Height, screen.Width, screen.Height / 8);
-        //    Base1 = new Rectangle(0, Mid.Height + Topp.Height, screen.Width, screen.Height / 16);
-        //    Base2 = new Rectangle(0, Base1.Height + Mid.Height + Topp.Height, screen.Width, screen.Height / 16);
-        //}
-
-        //private void BuildWorld()
-        //{
-
-        //    TopSkyColor = System.Drawing.ColorTranslator.FromHtml("#F64662");
-        //    MidSkyColor = System.Drawing.ColorTranslator.FromHtml("#C61951");
-        //    Base1SkyColor = System.Drawing.ColorTranslator.FromHtml("#741938");
-        //    Base2SkyColor = System.Drawing.ColorTranslator.FromHtml("#56132A");
-
-        //    TopGroundColor = System.Drawing.ColorTranslator.FromHtml("#3B5F41");
-        //    MidGroundColor = System.Drawing.ColorTranslator.FromHtml("#66A96B");
-        //    Base1GroundColor = System.Drawing.ColorTranslator.FromHtml("#98E19A");
-        //    Base2GroundColor = System.Drawing.ColorTranslator.FromHtml("#C5F5C2");
-        //}
+       
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-
             world.RenderWorld();
-            thePlayer.Movment();
+            thePlayer.Update();
+            theSun.Update();
+            theSky.RenderSky(theSun.HorizonColorGenerator());
 
         }
 

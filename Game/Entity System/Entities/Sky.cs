@@ -21,10 +21,8 @@ namespace Game
         protected Color[] Colors = new Color[4];
         //Screen panel
         protected World screen;
-        //Sky or ground
+        //Choice of Sky or ground for color conversion
         protected char choice;
-        //Gradient brush
-        LinearGradientBrush gradBrush;
 
         public Sky(Color Color, World screen)
         {
@@ -33,7 +31,12 @@ namespace Game
             this.choice = 's';
         }
 
-        public virtual void Draw(Graphics g)
+        public void RenderSky(Color SunColor)
+        {
+            this.Colors[0] = SunColor;
+        }
+
+        public virtual void DrawSky(Graphics g)
         {
             //Colors for the sky
             Colors = ColorConversion();
@@ -49,32 +52,7 @@ namespace Game
 
         }
 
-        /// <summary>
-        /// Renders the shapes and colors in the World object
-        /// </summary>
-        /// <param name="position">Position change in the ground</param>
-        //public void RenderWorld(float position)
-        //{
 
-        //    //Colors for the ground
-        //    GroundColor = ColorConversion(GroundColor[0], 'g');
-
-
-        ////Shapes for the ground bands
-        //GroundRectangles[0] = new RectangleF(0, screen.Height / 2, screen.Width, screen.Height / 4);
-        //GroundRectangles[1] = new RectangleF(0, screen.Height / 2 + GroundRectangles[0].Height, screen.Width, screen.Height / 8);
-        //GroundRectangles[2] = new RectangleF(0, screen.Height / 2 + GroundRectangles[1].Height + GroundRectangles[0].Height, screen.Width, screen.Height / 16);
-        //GroundRectangles[3] = new RectangleF(0, screen.Height / 2 + GroundRectangles[2].Height + GroundRectangles[1].Height + +GroundRectangles[0].Height, screen.Width, screen.Height / 16);
-
-        //Graphics g = screen.CreateGraphics();
-
-        //Loop to render the world with all the shapes
-        //    for (int i = 0; i < 4; i++)
-        //    {
-        //        g.FillRectangle(new SolidBrush(SkyColors[i]), SkyRectangles[i]);
-        //        g.FillRectangle(new SolidBrush(GroundColor[i]), GroundRectangles[i]);
-        //    }
-        //}
 
         /// <summary>
         /// Used to create the appropriate Color array for the sky or ground gradient
@@ -86,52 +64,40 @@ namespace Game
         {
             Color[] colors = new Color[4];
             colors[0] = Colors[0];
-            Color placeHolder;
-            int tempVal = 0;
             for (int i = 1; i < 4; i++)
             {
                 if (colors[i - 1].R + INCREMENT_CONST[0, i - 1] <= 255)
                 {
-                    if (colors[i - 1].G + INCREMENT_CONST[1, i - 1] <= 255)
-                    {
-                        if (colors[i - 1].B + INCREMENT_CONST[2, i - 1] <= 255)
-                        {
-                            colors[i] = Color.FromArgb(colors[i - 1].R + INCREMENT_CONST[0, i - 1], colors[i - 1].G + INCREMENT_CONST[1, i - 1], colors[i - 1].B + INCREMENT_CONST[2, i - 1]);
-                        }
-                        else
-                        {
-                            placeHolder = colors[i - 1];
-                            tempVal = placeHolder.B + INCREMENT_CONST[2, i - 1] - 255;
-                            for (int j = i - 1; j >= 0; j--)
-                            {
-                                colors[j] = Color.FromArgb(placeHolder.R - INCREMENT_CONST[0, j], placeHolder.G - INCREMENT_CONST[1, j], colors[j].B - tempVal);
-                            }
-                            i--;
-                        }
+                    colors[i] = Color.FromArgb(colors[i - 1].R + INCREMENT_CONST[0, i - 1], colors[i].G, colors[i].B);
 
-                    }
-                    else
-                    {
-                        placeHolder = colors[i - 1];
-                        tempVal = placeHolder.G + INCREMENT_CONST[1, i - 1] - 255;
-                        for (int j = i - 1; j >= 0; j--)
-                        {
-                            colors[j] = Color.FromArgb(placeHolder.R - INCREMENT_CONST[0,j], colors[j].G - tempVal, placeHolder.B);
-                        }
-                        i--;
-
-                    }
                 }
                 else
                 {
-                    placeHolder = colors[i - 1];
-                    tempVal = placeHolder.R + INCREMENT_CONST[0, i - 1] - 255;
-                    for (int j = i - 1; j >= 0; j--)
-                    {
-                        colors[j] = Color.FromArgb(colors[j].R - tempVal, placeHolder.G, placeHolder.B);
-                    }
-                    i--;
+                    colors[i] = Color.FromArgb(255, colors[i].G, colors[i].B);
 
+                }
+
+
+                if (colors[i - 1].G + INCREMENT_CONST[1, i - 1] <= 255)
+                {
+
+                    colors[i] = Color.FromArgb(colors[i].R, colors[i - 1].G + INCREMENT_CONST[1, i-1], colors[i].B);
+
+
+                }
+                else
+                {
+                    colors[i] = Color.FromArgb(colors[i].R, 255, colors[i].B);
+                }
+
+
+                if (colors[i - 1].B + INCREMENT_CONST[2, i - 1] <= 255)
+                {
+                    colors[i] = Color.FromArgb(colors[i].R, colors[i].G, colors[i - 1].B + INCREMENT_CONST[2, i - 1]);
+                }
+                else
+                {
+                    colors[i] = Color.FromArgb(colors[i].R, colors[i].G, 255);
                 }
             }
 
